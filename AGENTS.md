@@ -431,3 +431,47 @@ Agent 在以下时机自动 commit：
 - 盲区发现后：`blindspot: {简述}`
 - Essay 完成后：`essay: {主题}`
 - 结构维护后：`maintain: {描述}`
+
+---
+
+## Session 管理
+
+**核心原则：Vault 是长期记忆，Session 是工作记忆。**
+
+所有学习状态（mastery、next_review、error_log、进度总览）持久化在 vault 文件中。Session 只需要活到当前活动单元完成。`/new` 的成本很低——agent 重新读 vault 即可恢复所有长期状态。
+
+### 何时 `/new`（新建 session）
+
+- 切换模式（quiz → 学新 → ingest）：不同模式需要不同上下文密度
+- 新一天开始学习：agent 需要重新扫描 frontmatter 获取最新复习状态
+- Session 报告已生成：该 session 的价值已持久化到 vault
+- Agent 出现重复/矛盾/遗忘：上下文被挤压导致信息丢失
+- 换学科/换主题：前一个主题的上下文对新主题是噪音
+
+### 何时 `/compact`（压缩上下文）
+
+- 长 quiz session 中途（>10 轮问答）：保留答对/答错摘要，丢弃具体题目细节
+- 学新模式中讲解结束、准备进入即时检测：保留概念要点，丢弃推导过程
+- Ingest 处理了很多页之后：保留已生成文件清单，丢弃原始 PDF 内容
+- 响应明显变慢：token 接近上限的信号
+
+### 何时保持当前 session
+
+- Quiz 进行中（<10 轮）：agent 需要记住错误模式做盲区检测
+- 正在讲解一个概念且用户在追问：上下文连贯性关键
+- 连续几个相关知识点的学习：交叉引用需要前文
+
+### 典型学习日节奏
+
+```
+Session 1: /new → "复习" (quiz)
+  15min quiz → session 报告 → frontmatter 更新 → 结束
+
+Session 2: /new → "学新 XXX"
+  讲解 → 追问 → (若太长 /compact) → 即时检测 → 结束
+
+Session 3: /new → "ingest XXX Ch3"
+  处理 30 页 → /compact → 继续处理 → 结束
+```
+
+**经验法则：一个 session = 一次坐下来学习中的一个活动。不要让一个 session 跨多个小时或多天。**
