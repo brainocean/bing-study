@@ -1,1 +1,23 @@
+# OS
 .DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Obsidian
+.obsidian/
+.trash/
+
+# Temporary
+*.tmp
+*.bak
+
+# Large binary sources (track with Git LFS if needed)
+# sources/**/*.pdf
+# sources/**/*.epub
