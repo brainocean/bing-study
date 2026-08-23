@@ -440,6 +440,12 @@ Agent 在以下时机自动 commit：
 
 所有学习状态（mastery、next_review、error_log、进度总览）持久化在 vault 文件中。Session 只需要活到当前活动单元完成。`/new` 的成本很低——agent 重新读 vault 即可恢复所有长期状态。
 
+**每次新 session 启动时，agent 必须先读取：**
+1. `_meta/learner-profile.md` — 学习者思维风格、知识背景、偏好、已知薄弱点
+2. `_dashboard/进度总览.md` — 当前进度和待复习状态
+
+Learner profile 应在每次 session 结束时按需更新（新发现的思维模式、洞察、薄弱点）。
+
 ### 何时 `/new`（新建 session）
 
 - 切换模式（quiz → 学新 → ingest）：不同模式需要不同上下文密度
