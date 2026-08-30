@@ -1,28 +1,29 @@
 ---
-title: "Open World Assumption vs Closed World Assumption"
+title: Open World Assumption vs Closed World Assumption
 domain: ontology
 topic: 基础概念
-source: "Keet, An Introduction to Ontology Engineering, Ch1 §1.2.1"
-page: "5"
+source: Keet, An Introduction to Ontology Engineering, Ch1 §1.2.1
+page: '5'
 prerequisites: []
 related:
-  - "[[ontology-vs-database-vs-conceptual-model]]"
-  - "[[definition-of-ontology]]"
-last_review: 2026-08-22
-next_review: 2026-08-23
-interval_days: 1
-ease_factor: 2.5
-mastery: 0.0
-correct_streak: 0
+- '[[ontology-vs-database-vs-conceptual-model]]'
+- '[[definition-of-ontology]]'
+last_review: 2026-08-29
+next_review: 2026-08-31
+interval_days: 2
+ease_factor: 2.6
+mastery: 0.4
+correct_streak: 1
 error_log: []
 created: 2026-08-22
 modified: 2026-08-22
 tags:
-  - owa
-  - cwa
-  - reasoning
-  - fundamental
+- owa
+- cwa
+- reasoning
+- fundamental
 ---
+
 
 # Open World Assumption vs Closed World Assumption
 

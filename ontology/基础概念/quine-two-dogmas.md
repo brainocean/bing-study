@@ -1,15 +1,15 @@
 ---
-title: "Quine: Two Dogmas of Empiricism"
+title: 'Quine: Two Dogmas of Empiricism'
 domain: ontology
 topic: 基础概念
-source: "Quine (1951) Two Dogmas of Empiricism, The Philosophical Review 60(1): 20-43"
+source: 'Quine (1951) Two Dogmas of Empiricism, The Philosophical Review 60(1): 20-43'
 prerequisites:
-  - "[[definition-of-ontology]]"
+- '[[definition-of-ontology]]'
 related:
-  - "[[ontology-philosophical-vs-engineering]]"
-  - "[[open-world-vs-closed-world]]"
-last_review: 2026-08-22
-next_review: 2026-08-23
+- '[[ontology-philosophical-vs-engineering]]'
+- '[[open-world-vs-closed-world]]'
+last_review: 2026-08-29
+next_review: 2026-08-30
 interval_days: 1
 ease_factor: 2.5
 mastery: 0.3
@@ -18,12 +18,13 @@ error_log: []
 created: 2026-08-22
 modified: 2026-08-22
 tags:
-  - quine
-  - epistemology
-  - holism
-  - pragmatism
-  - analytic-synthetic
+- quine
+- epistemology
+- holism
+- pragmatism
+- analytic-synthetic
 ---
+
 
 # Quine: Two Dogmas of Empiricism (1951)
 

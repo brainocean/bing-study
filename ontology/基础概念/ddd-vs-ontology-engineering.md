@@ -1,16 +1,16 @@
 ---
-title: "DDD vs Ontology Engineering"
+title: DDD vs Ontology Engineering
 domain: ontology
 topic: 基础概念
-source: "Evans (2003) Domain-Driven Design; Keet Ch1; 讨论衍生"
+source: Evans (2003) Domain-Driven Design; Keet Ch1; 讨论衍生
 prerequisites:
-  - "[[definition-of-ontology]]"
-  - "[[ontology-vs-database-vs-conceptual-model]]"
+- '[[definition-of-ontology]]'
+- '[[ontology-vs-database-vs-conceptual-model]]'
 related:
-  - "[[ontology-philosophical-vs-engineering]]"
-  - "[[ontology-use-cases]]"
-last_review: 2026-08-22
-next_review: 2026-08-23
+- '[[ontology-philosophical-vs-engineering]]'
+- '[[ontology-use-cases]]'
+last_review: 2026-08-29
+next_review: 2026-08-30
 interval_days: 1
 ease_factor: 2.5
 mastery: 0.3
@@ -19,13 +19,14 @@ error_log: []
 created: 2026-08-22
 modified: 2026-08-22
 tags:
-  - ddd
-  - domain-model
-  - bounded-context
-  - comparison
-  - expressiveness
-  - decidability
+- ddd
+- domain-model
+- bounded-context
+- comparison
+- expressiveness
+- decidability
 ---
+
 
 # DDD vs Ontology Engineering
 

@@ -9,13 +9,16 @@ prerequisites:
   - "[[ontology-vs-database-vs-conceptual-model]]"
 related:
   - "[[ontology-philosophical-vs-engineering]]"
-last_review: 2026-08-22
-next_review: 2026-08-23
+last_review: 2026-08-29
+next_review: 2026-08-30
 interval_days: 1
-ease_factor: 2.5
-mastery: 0.0
+ease_factor: 2.3
+mastery: 0.3
 correct_streak: 0
-error_log: []
+error_log:
+  - date: 2026-08-29
+    type: 概念混淆
+    brief: "连续两次将 data-level integration 混淆为 entity resolution（实体ID匹配），实际是各数据库用同一 ontology term ID 标注数据"
 created: 2026-08-22
 modified: 2026-08-22
 tags:

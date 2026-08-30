@@ -1,15 +1,15 @@
 ---
-title: "Pirsig 的 Quality：第三种 Ontological Commitment"
+title: Pirsig 的 Quality：第三种 Ontological Commitment
 domain: ontology
 topic: 基础概念
-source: "Pirsig (1974) Zen and the Art of Motorcycle Maintenance; 讨论衍生"
+source: Pirsig (1974) Zen and the Art of Motorcycle Maintenance; 讨论衍生
 prerequisites:
-  - "[[quine-two-dogmas]]"
-  - "[[ontology-philosophical-vs-engineering]]"
+- '[[quine-two-dogmas]]'
+- '[[ontology-philosophical-vs-engineering]]'
 related:
-  - "[[definition-of-ontology]]"
-last_review: 2026-08-22
-next_review: 2026-08-23
+- '[[definition-of-ontology]]'
+last_review: 2026-08-29
+next_review: 2026-08-30
 interval_days: 1
 ease_factor: 2.5
 mastery: 0.3
@@ -18,13 +18,14 @@ error_log: []
 created: 2026-08-22
 modified: 2026-08-22
 tags:
-  - pirsig
-  - quality
-  - materialism
-  - idealism
-  - subject-object
-  - metaphysics
+- pirsig
+- quality
+- materialism
+- idealism
+- subject-object
+- metaphysics
 ---
+
 
 # Pirsig 的 Quality：第三种 Ontological Commitment
 

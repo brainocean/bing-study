@@ -1,27 +1,28 @@
 ---
-title: "Ontology: 哲学本体论 vs 工程本体论"
+title: 'Ontology: 哲学本体论 vs 工程本体论'
 domain: ontology
 topic: 基础概念
-source: "综合梳理：Aristotle → Gruber → Palantir"
+source: 综合梳理：Aristotle → Gruber → Palantir
 prerequisites: []
 related:
-  - "[[substance-and-accident]]"
-  - "[[categories-aristotle]]"
-last_review: 2026-08-22
-next_review: 2026-08-23
-interval_days: 1
-ease_factor: 2.5
-mastery: 0.3
-correct_streak: 0
+- '[[substance-and-accident]]'
+- '[[categories-aristotle]]'
+last_review: 2026-08-29
+next_review: 2026-08-31
+interval_days: 2
+ease_factor: 2.6
+mastery: 0.4
+correct_streak: 1
 error_log: []
 created: 2026-08-22
 modified: 2026-08-22
 tags:
-  - meta
-  - aristotle
-  - palantir
-  - knowledge-graph
+- meta
+- aristotle
+- palantir
+- knowledge-graph
 ---
+
 
 # Ontology: 哲学本体论 vs 工程本体论
 

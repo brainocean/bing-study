@@ -1,27 +1,28 @@
 ---
-title: "Ontology 的定义演进"
+title: Ontology 的定义演进
 domain: ontology
 topic: 基础概念
-source: "Keet, An Introduction to Ontology Engineering, Ch1 §1.2"
-page: "4-7"
+source: Keet, An Introduction to Ontology Engineering, Ch1 §1.2
+page: 4-7
 prerequisites: []
 related:
-  - "[[ontology-philosophical-vs-engineering]]"
-  - "[[ontology-vs-database-vs-conceptual-model]]"
-last_review: 2026-08-22
-next_review: 2026-08-23
-interval_days: 1
-ease_factor: 2.5
-mastery: 0.0
-correct_streak: 0
+- '[[ontology-philosophical-vs-engineering]]'
+- '[[ontology-vs-database-vs-conceptual-model]]'
+last_review: 2026-08-29
+next_review: 2026-08-31
+interval_days: 2
+ease_factor: 2.6
+mastery: 0.4
+correct_streak: 1
 error_log: []
 created: 2026-08-22
 modified: 2026-08-22
 tags:
-  - definition
-  - gruber
-  - guarino
+- definition
+- gruber
+- guarino
 ---
+
 
 # Ontology 的定义演进
 
