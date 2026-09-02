@@ -16,25 +16,42 @@ mastery: 0.4
 correct_streak: 1
 error_log: []
 anki_cards:
-  - anki_note_id: null
-    type: cloze
-    text: "Ontology 由希腊语 {{c1::ὄν (on, \"being\")}} + {{c2::λόγος (logos, \"学问\")}} 构成，拉丁化为 {{c3::ontologia}}，字面义为「关于'是/存在'的学问」。"
-    tags: [ontology, etymology, greek]
-  - anki_note_id: null
-    type: basic
-    front: "希腊语动词 εἰμί (to be) 同时承担哪三重功能？这为什么重要？"
-    back: "1) 系词 (copula)：S 是 P；2) 存在动词 (existential)：S 存在；3) 同一性 (identity)：A 就是 B。由此 ὄν (on) 天然歧义——同时可指'是者'和'存在者'，这个歧义贯穿 ontology 两千年历史，也是中文'本体论'vs'存在论'译名之争的根源。"
-    tags: [ontology, etymology, greek, to-be]
-  - anki_note_id: null
-    type: basic
-    front: "文献中最早使用 ontologia 一词的是谁？何时？"
-    back: "Jacob Lorhard，1606 年，见于其著作 Ogdoas Scholastica。Rudolf Goclenius (1613) 曾长期被误认为首创者，实际是传播者。"
-    tags: [ontology, etymology, history, lorhard]
-  - anki_note_id: null
-    type: basic
-    front: "日本为什么从「本体論」改用「存在論」？中国为何没有跟随？"
-    back: "日本学界自 1930 年代起受海德格尔影响，逐渐改用「存在論」，至 1950 年代「本体論」几乎消失。中国因路径依赖（百年教材、译著积累），继续沿用「本体论」至今。"
-    tags: [ontology, translation, japanese, chinese-philosophy, heidegger]
+- anki_note_id: 1788357098392
+  type: cloze
+  text: Ontology 由希腊语 {{c1::ὄν (on, "being")}} + {{c2::λόγος (logos, "学问")}} 构成，拉丁化为 {{c3::ontologia}}，字面义为「关于'是/存在'的学问」。
+  tags:
+  - ontology
+  - etymology
+  - greek
+- anki_note_id: 1788357098393
+  type: basic
+  front: 希腊语动词 εἰμί (to be) 同时承担哪三重功能？这为什么重要？
+  back: 1) 系词 (copula)：S 是 P；2) 存在动词 (existential)：S 存在；3) 同一性 (identity)：A 就是 B。由此 ὄν (on) 天然歧义——同时可指'是者'和'存在者'，这个歧义贯穿 ontology
+    两千年历史，也是中文'本体论'vs'存在论'译名之争的根源。
+  tags:
+  - ontology
+  - etymology
+  - greek
+  - to-be
+- anki_note_id: 1788357098394
+  type: basic
+  front: 文献中最早使用 ontologia 一词的是谁？何时？
+  back: Jacob Lorhard，1606 年，见于其著作 Ogdoas Scholastica。Rudolf Goclenius (1613) 曾长期被误认为首创者，实际是传播者。
+  tags:
+  - ontology
+  - etymology
+  - history
+  - lorhard
+- anki_note_id: 1788357098395
+  type: basic
+  front: 日本为什么从「本体論」改用「存在論」？中国为何没有跟随？
+  back: 日本学界自 1930 年代起受海德格尔影响，逐渐改用「存在論」，至 1950 年代「本体論」几乎消失。中国因路径依赖（百年教材、译著积累），继续沿用「本体论」至今。
+  tags:
+  - ontology
+  - translation
+  - japanese
+  - chinese-philosophy
+  - heidegger
 created: 2026-08-24
 modified: 2026-08-24
 tags:

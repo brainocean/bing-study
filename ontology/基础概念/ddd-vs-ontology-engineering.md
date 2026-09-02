@@ -17,25 +17,43 @@ mastery: 0.3
 correct_streak: 0
 error_log: []
 anki_cards:
-  - anki_note_id: null
-    type: basic
-    front: "DDD 与 ontology engineering 的核心关系是什么？"
-    back: "DDD 是 ontology engineering 的'应用内特化版'——做同样的认识论工作（知识提取、ontological commitment），但有意识地限制在单个 bounded context 内，放弃形式化推理和跨应用复用。"
-    tags: [ontology, ddd, domain-model, comparison]
-  - anki_note_id: null
-    type: cloze
-    text: "DDD 的作用域是 {{c1::Bounded Context（单个团队/服务）}}，而 ontology 的作用域是 {{c2::整个领域（跨组织共享）}}。DDD 的 Context Map 对应 ontology engineering 中的 {{c3::ontology alignment / mapping}}。"
-    tags: [ontology, ddd, bounded-context, scope]
-  - anki_note_id: null
-    type: basic
-    front: "Rice 定理说明了什么？它为何意味着代码不能被自动推理？"
-    back: "Rice 定理：对图灵完备语言，几乎所有关于程序语义的非平凡性质都是不可判定的。因此无法写一个通用程序来自动判断另一个程序是否满足某语义性质，而 OWL/DL 通过故意限制表达力来换取可判定性。"
-    tags: [ontology, ddd, rice-theorem, decidability]
-  - anki_note_id: null
-    type: basic
-    front: "代码（如 Java）和 OWL 在表达力与可推理性上的根本 tradeoff 是什么？"
-    back: "代码是图灵完备的（表达力极强）但几乎不可推理；OWL/DL 故意限制表达力（只覆盖 Description Logic 片段），换取可判定性——推理机能自动检查一致性、推导蕴含、做分类推理。表达力与可判定性此消彼长。"
-    tags: [ontology, ddd, expressiveness, decidability, tradeoff]
+- anki_note_id: 1788357098383
+  type: basic
+  front: DDD 与 ontology engineering 的核心关系是什么？
+  back: DDD 是 ontology engineering 的'应用内特化版'——做同样的认识论工作（知识提取、ontological commitment），但有意识地限制在单个 bounded context 内，放弃形式化推理和跨应用复用。
+  tags:
+  - ontology
+  - ddd
+  - domain-model
+  - comparison
+- anki_note_id: 1788357098384
+  type: cloze
+  text: DDD 的作用域是 {{c1::Bounded Context（单个团队/服务）}}，而 ontology 的作用域是 {{c2::整个领域（跨组织共享）}}。DDD 的 Context Map 对应 ontology engineering
+    中的 {{c3::ontology alignment / mapping}}。
+  tags:
+  - ontology
+  - ddd
+  - bounded-context
+  - scope
+- anki_note_id: 1788357098385
+  type: basic
+  front: Rice 定理说明了什么？它为何意味着代码不能被自动推理？
+  back: Rice 定理：对图灵完备语言，几乎所有关于程序语义的非平凡性质都是不可判定的。因此无法写一个通用程序来自动判断另一个程序是否满足某语义性质，而 OWL/DL 通过故意限制表达力来换取可判定性。
+  tags:
+  - ontology
+  - ddd
+  - rice-theorem
+  - decidability
+- anki_note_id: 1788357098386
+  type: basic
+  front: 代码（如 Java）和 OWL 在表达力与可推理性上的根本 tradeoff 是什么？
+  back: 代码是图灵完备的（表达力极强）但几乎不可推理；OWL/DL 故意限制表达力（只覆盖 Description Logic 片段），换取可判定性——推理机能自动检查一致性、推导蕴含、做分类推理。表达力与可判定性此消彼长。
+  tags:
+  - ontology
+  - ddd
+  - expressiveness
+  - decidability
+  - tradeoff
 created: 2026-08-22
 modified: 2026-08-22
 tags:

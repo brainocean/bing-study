@@ -16,29 +16,50 @@ mastery: 0.3
 correct_streak: 0
 error_log: []
 anki_cards:
-  - anki_note_id: null
-    type: basic
-    front: "Quine 在《Two Dogmas of Empiricism》中攻击的两个教条是什么？"
-    back: "1. **分析/综合区分**：有些命题纯靠意义为真（分析），有些靠经验（综合）——Quine 论证这个区分无法给出非循环定义；2. **还原论**：每个有意义的命题都可还原为关于感觉经验的命题——Quine 以整体论反驳之。"
-    tags: [ontology, quine, analytic-synthetic, epistemology]
-  - anki_note_id: null
-    type: basic
-    front: "Quine 如何攻击分析/综合区分？核心策略是什么？"
-    back: "追问'分析'的定义。'单身汉是未婚男性'靠'同义'成立，但'同义'的每种定义都陷入循环：字典记录用法习惯而非逻辑必然，可互换性预设已知哪些是分析的，语义规则只是踢皮球，验证等价又预设了第二教条。结论：分析与经验命题的区别只是程度性的，非种类性的。"
-    tags: [ontology, quine, analytic-synthetic, epistemology]
-  - anki_note_id: null
-    type: cloze
-    text: "Quine 的信念之网（Web of Belief）：{{c1::边缘}}节点直接面对经验，{{c2::核心}}节点（如逻辑/数学）改动代价最大但{{c3::原则上仍可修正}}"
-    tags: [ontology, quine, holism, web-of-belief]
-  - anki_note_id: null
-    type: basic
-    front: "Quine 的整体论对 ontological commitment 意味着什么？"
-    back: "选择什么 ontology（承认什么存在）和选择什么物理定律是同一种选择——都是为了让整体信念网最融贯、最简洁、最能应对经验。没有'正确的 ontology'等着被发现，只有对当前目的最实用的 ontology，换了目的可以换 ontology。"
-    tags: [ontology, quine, ontological-commitment, pragmatism]
-  - anki_note_id: null
-    type: cloze
-    text: "在 Quine 的框架中，选择一种 ontology 和选择{{c1::物理定律}}是同一种选择——都是{{c2::实用主义决策}}"
-    tags: [ontology, quine, ontological-commitment, pragmatism]
+- anki_note_id: 1788357098417
+  type: basic
+  front: Quine 在《Two Dogmas of Empiricism》中攻击的两个教条是什么？
+  back: 1. **分析/综合区分**：有些命题纯靠意义为真（分析），有些靠经验（综合）——Quine 论证这个区分无法给出非循环定义；2. **还原论**：每个有意义的命题都可还原为关于感觉经验的命题——Quine 以整体论反驳之。
+  tags:
+  - ontology
+  - quine
+  - analytic-synthetic
+  - epistemology
+- anki_note_id: 1788357098418
+  type: basic
+  front: Quine 如何攻击分析/综合区分？核心策略是什么？
+  back: 追问'分析'的定义。'单身汉是未婚男性'靠'同义'成立，但'同义'的每种定义都陷入循环：字典记录用法习惯而非逻辑必然，可互换性预设已知哪些是分析的，语义规则只是踢皮球，验证等价又预设了第二教条。结论：分析与经验命题的区别只是程度性的，非种类性的。
+  tags:
+  - ontology
+  - quine
+  - analytic-synthetic
+  - epistemology
+- anki_note_id: 1788357098419
+  type: cloze
+  text: Quine 的信念之网（Web of Belief）：{{c1::边缘}}节点直接面对经验，{{c2::核心}}节点（如逻辑/数学）改动代价最大但{{c3::原则上仍可修正}}
+  tags:
+  - ontology
+  - quine
+  - holism
+  - web-of-belief
+- anki_note_id: 1788357098420
+  type: basic
+  front: Quine 的整体论对 ontological commitment 意味着什么？
+  back: 选择什么 ontology（承认什么存在）和选择什么物理定律是同一种选择——都是为了让整体信念网最融贯、最简洁、最能应对经验。没有'正确的 ontology'等着被发现，只有对当前目的最实用的 ontology，换了目的可以换
+    ontology。
+  tags:
+  - ontology
+  - quine
+  - ontological-commitment
+  - pragmatism
+- anki_note_id: 1788357098421
+  type: cloze
+  text: 在 Quine 的框架中，选择一种 ontology 和选择{{c1::物理定律}}是同一种选择——都是{{c2::实用主义决策}}
+  tags:
+  - ontology
+  - quine
+  - ontological-commitment
+  - pragmatism
 created: 2026-08-22
 modified: 2026-08-22
 tags:

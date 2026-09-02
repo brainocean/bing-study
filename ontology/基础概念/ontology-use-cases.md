@@ -1,14 +1,14 @@
 ---
-title: "Ontology 的工业应用场景"
+title: Ontology 的工业应用场景
 domain: ontology
 topic: 基础概念
-source: "Keet, An Introduction to Ontology Engineering, Ch1 §1.3"
-page: "9-19"
+source: Keet, An Introduction to Ontology Engineering, Ch1 §1.3
+page: 9-19
 prerequisites:
-  - "[[definition-of-ontology]]"
-  - "[[ontology-vs-database-vs-conceptual-model]]"
+- '[[definition-of-ontology]]'
+- '[[ontology-vs-database-vs-conceptual-model]]'
 related:
-  - "[[ontology-philosophical-vs-engineering]]"
+- '[[ontology-philosophical-vs-engineering]]'
 last_review: 2026-08-29
 next_review: 2026-08-30
 interval_days: 1
@@ -16,37 +16,51 @@ ease_factor: 2.3
 mastery: 0.3
 correct_streak: 0
 error_log:
-  - date: 2026-08-29
-    type: 概念混淆
-    brief: "连续两次将 data-level integration 混淆为 entity resolution（实体ID匹配），实际是各数据库用同一 ontology term ID 标注数据"
+- date: 2026-08-29
+  type: 概念混淆
+  brief: 连续两次将 data-level integration 混淆为 entity resolution（实体ID匹配），实际是各数据库用同一 ontology term ID 标注数据
 anki_cards:
-  - anki_note_id: null
-    type: basic
-    front: "Ontology 在工业中的两大核心用途是什么？"
-    back: "1) Schema-level integration（模式层集成）：多个系统 schema 不同，通过 mapping 到共享 ontology 实现互操作；2) Data-level integration（实例层集成）：多个数据库用同一 ontology 的 term ID 标注各自数据"
-    tags: [ontology, data-integration, applications]
-  - anki_note_id: null
-    type: basic
-    front: "Schema-level integration 和 Data-level integration 有什么区别？各举一个典型场景。"
-    back: "Schema-level：统一不同系统的数据结构定义（如两所大学合并，各自学生系统 schema 不同，mapping 到同一 ontology）。Data-level：不同数据库用同一 ontology term ID 标注实例数据（如 Gene Ontology，KEGG 和 InterPro 用 GO term 关联各自基因数据）"
-    tags: [ontology, data-integration, schema-integration]
-  - anki_note_id: null
-    type: cloze
-    text: "Gene Ontology 成功的五个因素：{{c1::真实痛点（基因命名混乱）}}、{{c2::领域专家驱动（非 CS 强加）}}、{{c3::渐进式发展（从 controlled vocabulary 到 OWL）}}、网络效应、实用主义"
-    back_extra: "GO 有 40000+ 概念，数千数据库通过它相连"
-    tags: [ontology, gene-ontology, success-factors]
-  - anki_note_id: null
-    type: basic
-    front: "什么情况下 ontology 不是合适的解决方案？（列举三种场景）"
-    back: "1) 单一系统、单一 schema、不需推理 → 用 DB 即可；2) 数据量巨大但语义简单 → data lake + 简单 schema；3) 需要实时低延迟 → ontology reasoning 通常较慢"
-    tags: [ontology, anti-patterns, applications]
+- anki_note_id: 1788357098400
+  type: basic
+  front: Ontology 在工业中的两大核心用途是什么？
+  back: 1) Schema-level integration（模式层集成）：多个系统 schema 不同，通过 mapping 到共享 ontology 实现互操作；2) Data-level integration（实例层集成）：多个数据库用同一
+    ontology 的 term ID 标注各自数据
+  tags:
+  - ontology
+  - data-integration
+  - applications
+- anki_note_id: 1788357098401
+  type: basic
+  front: Schema-level integration 和 Data-level integration 有什么区别？各举一个典型场景。
+  back: Schema-level：统一不同系统的数据结构定义（如两所大学合并，各自学生系统 schema 不同，mapping 到同一 ontology）。Data-level：不同数据库用同一 ontology term ID 标注实例数据（如
+    Gene Ontology，KEGG 和 InterPro 用 GO term 关联各自基因数据）
+  tags:
+  - ontology
+  - data-integration
+  - schema-integration
+- anki_note_id: 1788357098402
+  type: cloze
+  text: Gene Ontology 成功的五个因素：{{c1::真实痛点（基因命名混乱）}}、{{c2::领域专家驱动（非 CS 强加）}}、{{c3::渐进式发展（从 controlled vocabulary 到 OWL）}}、网络效应、实用主义
+  back_extra: GO 有 40000+ 概念，数千数据库通过它相连
+  tags:
+  - ontology
+  - gene-ontology
+  - success-factors
+- anki_note_id: 1788357098403
+  type: basic
+  front: 什么情况下 ontology 不是合适的解决方案？（列举三种场景）
+  back: 1) 单一系统、单一 schema、不需推理 → 用 DB 即可；2) 数据量巨大但语义简单 → data lake + 简单 schema；3) 需要实时低延迟 → ontology reasoning 通常较慢
+  tags:
+  - ontology
+  - anti-patterns
+  - applications
 created: 2026-08-22
 modified: 2026-08-22
 tags:
-  - applications
-  - data-integration
-  - knowledge-graph
-  - industry
+- applications
+- data-integration
+- knowledge-graph
+- industry
 ---
 
 # Ontology 的工业应用场景

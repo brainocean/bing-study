@@ -324,10 +324,15 @@ def sync_ankiweb() -> None:
     from fastanki import sync as _sync
     user = os.environ.get("ANKIWEB_USER")
     passw = os.environ.get("ANKIWEB_PASS")
-    if user and passw:
-        _sync(user=user, passw=passw)
-    else:
-        _sync()
+    kw = {"user": user, "passw": passw} if user and passw else {}
+    try:
+        _sync(**kw)
+    except Exception as exc:
+        if "empty" in str(exc).lower() and "upload" in str(exc).lower():
+            print("   (first sync: uploading local collection to AnkiWeb)")
+            _sync(upload=True, **kw)
+        else:
+            raise
 
 
 # ---------------------------------------------------------------------------

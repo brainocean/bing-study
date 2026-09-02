@@ -16,30 +16,48 @@ mastery: 0.4
 correct_streak: 1
 error_log: []
 anki_cards:
-  - anki_note_id: null
-    type: basic
-    front: "Gruber (1993) 对 ontology 的定义是什么？这个定义有什么根本问题？"
-    back: "\"An ontology is a specification of a conceptualization.\" 问题在于用 specification 和 conceptualization 两个模糊词去解释第三个模糊词，定义缺乏精确性。"
-    tags: [ontology, definition, gruber]
-  - anki_note_id: null
-    type: basic
-    front: "Studer et al. (1998) 对 Gruber 定义做了什么改进？加了哪三个约束？"
-    back: "改为 \"a formal, explicit specification of a shared conceptualization\"。三个约束：formal（机器可处理）、explicit（显式声明）、shared（社群共识）。"
-    tags: [ontology, definition, studer]
-  - anki_note_id: null
-    type: cloze
-    text: "Guarino (1998) 引入 {{c1::ontological commitment（本体论承诺）}} 概念：选择某个 vocabulary 就意味着你承诺了 {{c2::一种特定的世界观}}，ontology 通过约束把所有可能的模型收窄到 {{c3::intended models}}。"
-    tags: [ontology, definition, guarino, ontological-commitment]
-  - anki_note_id: null
-    type: basic
-    front: "大写 Ontology 与小写 ontology 分别指什么？"
-    back: "大写 Ontology（单数）= 哲学学科，研究「存在」的本质；小写 ontology/ontologies（可复数）= 工程制品，某领域的形式化知识表示。"
-    tags: [ontology, definition, terminology]
-  - anki_note_id: null
-    type: basic
-    front: "为什么'用 OWL 写了就是 ontology'这种说法是错误的？"
-    back: "把 thesaurus 转成 OWL 格式不会使其自动变成 ontology（缺乏概念关系和约束）；反之，非 OWL 表达的知识体系也可以是 ontology。形式 ≠ 内容。"
-    tags: [ontology, definition, owl, misconception]
+- anki_note_id: 1788357098387
+  type: basic
+  front: Gruber (1993) 对 ontology 的定义是什么？这个定义有什么根本问题？
+  back: '"An ontology is a specification of a conceptualization." 问题在于用 specification 和 conceptualization 两个模糊词去解释第三个模糊词，定义缺乏精确性。'
+  tags:
+  - ontology
+  - definition
+  - gruber
+- anki_note_id: 1788357098388
+  type: basic
+  front: Studer et al. (1998) 对 Gruber 定义做了什么改进？加了哪三个约束？
+  back: 改为 "a formal, explicit specification of a shared conceptualization"。三个约束：formal（机器可处理）、explicit（显式声明）、shared（社群共识）。
+  tags:
+  - ontology
+  - definition
+  - studer
+- anki_note_id: 1788357098389
+  type: cloze
+  text: Guarino (1998) 引入 {{c1::ontological commitment（本体论承诺）}} 概念：选择某个 vocabulary 就意味着你承诺了 {{c2::一种特定的世界观}}，ontology 通过约束把所有可能的模型收窄到
+    {{c3::intended models}}。
+  tags:
+  - ontology
+  - definition
+  - guarino
+  - ontological-commitment
+- anki_note_id: 1788357098390
+  type: basic
+  front: 大写 Ontology 与小写 ontology 分别指什么？
+  back: 大写 Ontology（单数）= 哲学学科，研究「存在」的本质；小写 ontology/ontologies（可复数）= 工程制品，某领域的形式化知识表示。
+  tags:
+  - ontology
+  - definition
+  - terminology
+- anki_note_id: 1788357098391
+  type: basic
+  front: 为什么'用 OWL 写了就是 ontology'这种说法是错误的？
+  back: 把 thesaurus 转成 OWL 格式不会使其自动变成 ontology（缺乏概念关系和约束）；反之，非 OWL 表达的知识体系也可以是 ontology。形式 ≠ 内容。
+  tags:
+  - ontology
+  - definition
+  - owl
+  - misconception
 created: 2026-08-22
 modified: 2026-08-22
 tags:
