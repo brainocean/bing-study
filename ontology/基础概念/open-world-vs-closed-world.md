@@ -8,19 +8,18 @@ prerequisites: []
 related:
 - '[[ontology-vs-database-vs-conceptual-model]]'
 - '[[definition-of-ontology]]'
-last_review: 2026-08-29
-next_review: 2026-08-31
-interval_days: 2
-ease_factor: 2.6
-mastery: 0.4
-correct_streak: 1
+last_review: '2026-09-02'
+next_review: '2026-09-07'
+interval_days: 5
+ease_factor: 2.7
+mastery: 0.5
+correct_streak: 2
 error_log: []
 anki_cards:
 - anki_note_id: 1788357098409
   type: basic
   front: CWA 和 OWA 的核心原则分别是什么？
-  back: CWA（Closed World Assumption）：不在数据库中的信息视为**假**。OWA（Open World Assumption）：不在知识库中的信息视为**未知**。CWA 常用于关系型数据库，OWA 常用于 Ontology
-    / Knowledge Base。
+  back: CWA（Closed World Assumption）：不在数据库中的信息视为**假**。OWA（Open World Assumption）：不在知识库中的信息视为**未知**。CWA 常用于关系型数据库，OWA 常用于 Ontology / Knowledge Base。
   tags:
   - ontology
   - owa
@@ -53,7 +52,7 @@ anki_cards:
   - reasoning
   - fundamental
 created: 2026-08-22
-modified: 2026-08-22
+modified: '2026-09-02'
 tags:
 - owa
 - cwa

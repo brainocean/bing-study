@@ -9,12 +9,12 @@ prerequisites:
 related:
 - '[[ontology-philosophical-vs-engineering]]'
 - '[[ontology-use-cases]]'
-last_review: 2026-08-29
-next_review: 2026-08-30
-interval_days: 1
-ease_factor: 2.5
-mastery: 0.3
-correct_streak: 0
+last_review: '2026-09-02'
+next_review: '2026-09-05'
+interval_days: 3
+ease_factor: 2.6
+mastery: 0.4
+correct_streak: 1
 error_log: []
 anki_cards:
 - anki_note_id: 1788357098383
@@ -28,8 +28,7 @@ anki_cards:
   - comparison
 - anki_note_id: 1788357098384
   type: cloze
-  text: DDD 的作用域是 {{c1::Bounded Context（单个团队/服务）}}，而 ontology 的作用域是 {{c2::整个领域（跨组织共享）}}。DDD 的 Context Map 对应 ontology engineering
-    中的 {{c3::ontology alignment / mapping}}。
+  text: DDD 的作用域是 {{c1::Bounded Context（单个团队/服务）}}，而 ontology 的作用域是 {{c2::整个领域（跨组织共享）}}。DDD 的 Context Map 对应 ontology engineering 中的 {{c3::ontology alignment / mapping}}。
   tags:
   - ontology
   - ddd
@@ -55,7 +54,7 @@ anki_cards:
   - decidability
   - tradeoff
 created: 2026-08-22
-modified: 2026-08-22
+modified: '2026-09-02'
 tags:
 - ddd
 - domain-model

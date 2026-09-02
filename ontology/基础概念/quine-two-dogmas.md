@@ -8,10 +8,10 @@ prerequisites:
 related:
 - '[[ontology-philosophical-vs-engineering]]'
 - '[[open-world-vs-closed-world]]'
-last_review: 2026-08-29
-next_review: 2026-08-30
+last_review: '2026-09-02'
+next_review: '2026-09-03'
 interval_days: 1
-ease_factor: 2.5
+ease_factor: 2.4
 mastery: 0.3
 correct_streak: 0
 error_log: []
@@ -45,8 +45,7 @@ anki_cards:
 - anki_note_id: 1788357098420
   type: basic
   front: Quine 的整体论对 ontological commitment 意味着什么？
-  back: 选择什么 ontology（承认什么存在）和选择什么物理定律是同一种选择——都是为了让整体信念网最融贯、最简洁、最能应对经验。没有'正确的 ontology'等着被发现，只有对当前目的最实用的 ontology，换了目的可以换
-    ontology。
+  back: 选择什么 ontology（承认什么存在）和选择什么物理定律是同一种选择——都是为了让整体信念网最融贯、最简洁、最能应对经验。没有'正确的 ontology'等着被发现，只有对当前目的最实用的 ontology，换了目的可以换 ontology。
   tags:
   - ontology
   - quine
@@ -61,7 +60,7 @@ anki_cards:
   - ontological-commitment
   - pragmatism
 created: 2026-08-22
-modified: 2026-08-22
+modified: '2026-09-02'
 tags:
 - quine
 - epistemology
