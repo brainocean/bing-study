@@ -1,0 +1,10 @@
+[project]
+name = "bing-study"
+version = "0.1.0"
+description = "Self-study vault with spaced repetition and Anki sync"
+requires-python = ">=3.14"
+dependencies = [
+    "fastanki>=0.0.5",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0",
+]

@@ -206,7 +206,7 @@ Agent 根据用户指令切换模式。以下是触发词和对应行为。
 **配置：**
 - AnkiWeb 凭证：环境变量 `ANKIWEB_USER` / `ANKIWEB_PASS`（`.env` 文件，已 gitignore）
 - 脚本位置：`scripts/anki_sync.py`（可独立在终端运行，也可被 agent 调用）
-- 依赖安装：`pip install -r scripts/requirements.txt`
+- 运行方式：`uv run python scripts/anki_sync.py sync`（uv 自动管理 venv 和依赖）
 
 ---
 

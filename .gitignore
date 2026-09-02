@@ -18,6 +18,11 @@ Desktop.ini
 *.tmp
 *.bak
 
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
 # Large binary sources (track with Git LFS if needed)
 # sources/**/*.pdf
 
