@@ -16,6 +16,32 @@ ease_factor: 2.6
 mastery: 0.4
 correct_streak: 1
 error_log: []
+anki_cards:
+  - anki_note_id: null
+    type: basic
+    front: "Relational DB、概念模型（UML）、Ontology 在作用域上的核心区别是什么？"
+    back: "DB 和概念模型都是 application-specific（绑定特定应用），Ontology 是 application-independent（表达领域知识，不绑定具体应用，可跨应用复用）"
+    tags: [ontology, database, conceptual-model, comparison]
+  - anki_note_id: null
+    type: cloze
+    text: "Description Logic 将知识库分为两层：{{c1::TBox（Terminological Box）定义概念和关系规则}}，{{c2::ABox（Assertional Box）声明具体实例事实}}"
+    back_extra: "类比：TBox ≈ TypeScript 的 interface/type，ABox ≈ 运行时的实际对象"
+    tags: [ontology, tbox-abox, description-logic]
+  - anki_note_id: null
+    type: basic
+    front: "Ontology 中 inherence 是什么意思？以 'Flower hasColour Colour' 为例说明。"
+    back: "Inherence 指 dependent particular（依存性个体）不能脱离其 bearer 独立存在。花₁的红色₁是一个特定 quality instance，依存于花₁——花₁不存在则该颜色实例也不存在。但 Colour 作为 universal（类）本身不依存于任何特定花"
+    tags: [ontology, inherence, quality, dependent-particular]
+  - anki_note_id: null
+    type: basic
+    front: "为什么把 UML 翻译成 OWL 不会自动产生一个 ontology？"
+    back: "因为 ontology 需要 ontological commitment——显式声明如何分类世界。UML 不区分属性的本体论性质（如 colour 是 inherent quality，price 是 relational property，id 是技术标识符），而 ontology 要求对每个属性做这种显式声明"
+    tags: [ontology, uml, owl, ontological-commitment]
+  - anki_note_id: null
+    type: basic
+    front: "Knowledge Graph 和 Ontology 各自偏重 TBox 还是 ABox？两者共存叫什么？"
+    back: "Knowledge Graph 偏 ABox（大量实例三元组，概念层相对简单）；Ontology 偏 TBox（精心设计的概念层级和推理规则，实例可以很少）。两者共存 = Knowledge Base (KB)"
+    tags: [ontology, knowledge-graph, tbox-abox, knowledge-base]
 created: 2026-08-22
 modified: 2026-08-24
 tags:

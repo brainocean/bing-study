@@ -60,6 +60,7 @@ Agent 根据用户指令切换模式。以下是触发词和对应行为。
 5. **判定**——先内部验证（chain-of-thought），再判定
 6. **反馈**——答对简洁确认；答错给出解析，追问确认理解
 7. **更新状态**——更新 frontmatter 中的复习字段
+   - 答错的知识点如果尚无 `anki_cards`，自动生成记忆层卡片（定义、关键区分），写入 frontmatter
 8. **盲区检测**——参见下方"盲区检测"章节
 9. **Session 结束**——用户说"结束"或"够了"时，生成 session 报告
 
@@ -106,6 +107,7 @@ Agent 根据用户指令切换模式。以下是触发词和对应行为。
    - `next_review: 明天`（首次间隔 1 天）
    - `interval_days: 1`
    - `mastery: 0.3`（初始低值）
+6. **生成 Anki 卡片**——为该知识点自动拆分生成 Anki 卡片（Basic 类型考定义/区分，Cloze 类型考关键术语），写入 frontmatter 的 `anki_cards` 字段
 
 ### 模式三：Ingest / 材料拆解模式
 
@@ -124,6 +126,7 @@ Agent 根据用户指令切换模式。以下是触发词和对应行为。
    - 补充相关争议和关联知识点
 4. **更新索引**——更新 MOC 页面和进度总览
 5. **提交审核**——列出生成的文件，请用户审核
+6. **生成 Anki 卡片**——为每个新生成的知识点 note 自动拆分生成 Anki 卡片，写入 frontmatter 的 `anki_cards` 字段
 
 **图片处理：**
 - 使用 `pdftoppm` 将页面渲染为 300dpi PNG
@@ -161,6 +164,50 @@ Agent 根据用户指令切换模式。以下是触发词和对应行为。
 4. 全部完成后一句话总结
 5. 答错的标记为"需要完整复习"
 
+### 模式六：Anki Sync 模式
+
+**触发词：** "sync anki"、"anki"、"同步卡片"
+
+**目的：** 将知识点的记忆层卡片同步到 AnkiWeb，实现手机端随时复习；同时从 Anki 读回复习进度更新 mastery。
+
+**架构：** 分层设计——Anki 负责记忆层（术语、定义、关键区分的 flashcard），Repo quiz 负责理解层（论证重构、批判分析、综合应用）。两者互补，不竞争调度。
+
+**流程：**
+
+1. **调用同步脚本**——执行 `python scripts/anki_sync.py sync`，完成：
+   - 从 AnkiWeb 下载最新复习数据（手机端的复习进度）
+   - 读取 Anki 卡片 interval/ease → 保守映射为 mastery 加分（上限 +0.2，只加不减）
+   - 推送 repo 中新增/变更的 `anki_cards` 到 Anki
+   - 对 mastery ≥ 0.9 的知识点 suspend 对应卡片（mastery 回落时自动 unsuspend）
+   - 检测 orphan 卡片（源 note 已删除）→ suspend 并报告
+   - 上传变更到 AnkiWeb → 手机端自动同步
+2. **报告结果**——展示同步统计（推送/更新/suspend 数量、mastery 变化）
+3. **处理 ad hoc 请求**——用户说 `card: <内容>` 时，生成卡片挂到最相关知识点的 `anki_cards`，无相关 note 则创建新 note
+
+**卡片生成规则：**
+- 一个知识点 note 拆分为多张原子卡片（minimum information principle）
+- **Basic** 卡片：一问一答（"X 是什么？" / "A 和 B 的区别？"）
+- **Cloze** 卡片：关键术语填空（`{{c1::ontological commitment}}` 语法）
+- 卡片语言跟随 note：中英混合，术语保留原文
+- 严禁照搬 note 原文：卡片必须重新措辞
+- 每张卡片的 `tags` 包含领域、主题和关键概念
+
+**卡片组织：**
+- 按领域分 Deck：`BingStudy::Ontology`、`BingStudy::Philosophy` 等
+- 所有卡片打 `bingstudy` tag 用于识别
+- 卡片内容存在知识点 note 的 frontmatter `anki_cards` 字段中（见 `_meta/frontmatter-spec.md`）
+
+**Mastery 映射规则：**
+- `memory_score = avg(min(interval, 90) / 90)` — 所有非 suspend 卡片的平均记忆稳固度
+- `anki_boost = min(0.2, memory_score × 0.2)` — Anki 最多贡献 mastery 0.2
+- 只增不减：Anki 记忆好不代表理解好，但记忆差拖累整体
+- 通过 `anki_mastery_boost` 字段追踪已累计的加分，避免重复计算
+
+**配置：**
+- AnkiWeb 凭证：环境变量 `ANKIWEB_USER` / `ANKIWEB_PASS`（`.env` 文件，已 gitignore）
+- 脚本位置：`scripts/anki_sync.py`（可独立在终端运行，也可被 agent 调用）
+- 依赖安装：`pip install -r scripts/requirements.txt`
+
 ---
 
 ## 盲区检测
@@ -187,6 +234,7 @@ Agent 根据用户指令切换模式。以下是触发词和对应行为。
 - **三分钟能讲清的：** 当场干预，暂停 quiz 进入讲解，确认理解后继续
 - **需要系统补课的：** 标记盲区，创建辨析 note，调整后续复习计划
 - **调整计划：** 把相关前置知识点的 `next_review` 设为明天，`ease_factor` 下调 0.2
+- **生成辨析卡片：** 创建辨析 note 时，同时为其生成 Anki 记忆层卡片（聚焦易混概念的区分要点），写入 frontmatter
 
 ---
 
@@ -399,6 +447,10 @@ Agent 维护 `_dashboard/进度总览.md`，每次 session 后更新。
 │   └── frontmatter-spec.md
 ├── sources/              （原始 PDF/书籍，只读）
 ├── ref/                  （参考资料、读书笔记草稿）
+├── scripts/
+│   ├── anki_sync.py      （Anki 同步脚本）
+│   └── requirements.txt  （Python 依赖）
+├── .env.example          （环境变量模板）
 └── AGENTS.md             （本文件）
 ```
 
@@ -431,6 +483,8 @@ Agent 在以下时机自动 commit：
 - 盲区发现后：`blindspot: {简述}`
 - Essay 完成后：`essay: {主题}`
 - 结构维护后：`maintain: {描述}`
+- Anki 同步后：`anki: sync N张卡片，mastery更新M个知识点`
+- Anki 卡片生成后：`anki: generate cards for {知识点名}`
 
 ---
 

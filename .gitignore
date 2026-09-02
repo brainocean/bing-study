@@ -20,4 +20,7 @@ Desktop.ini
 
 # Large binary sources (track with Git LFS if needed)
 # sources/**/*.pdf
+
+# Secrets
+.env
 # sources/**/*.epub

@@ -33,6 +33,10 @@ correct_streak: 0                    # 连续正确次数
 # === 错误记录 ===
 error_log: []                        # 错误历史（见下方格式）
 
+# === Anki 同步 ===
+anki_cards: []                        # Anki 卡片（见下方格式）
+anki_mastery_boost: 0                 # Anki 进度对 mastery 的累计加分（0-0.2）
+
 # === 元数据 ===
 created: 2026-08-22
 modified: 2026-08-22
@@ -49,6 +53,28 @@ error_log:
   - date: 2026-08-22
     type: 概念混淆          # 概念混淆 | 单点遗忘 | 表述不精确 | 前置缺失 | 理解表面化
     brief: "混淆了..."
+```
+
+## anki_cards 条目格式
+
+Basic 卡片：
+```yaml
+anki_cards:
+  - anki_note_id: null               # push 后由脚本填入 Anki note ID
+    type: basic
+    front: "Gruber (1993) 对 ontology 的定义是什么？"
+    back: "An ontology is a specification of a conceptualization."
+    tags: [ontology, definition, gruber]
+```
+
+Cloze 卡片：
+```yaml
+anki_cards:
+  - anki_note_id: null
+    type: cloze
+    text: "Guarino 定义中的 {{c1::ontological commitment}} 指的是选择 vocabulary 就承诺了一种世界观"
+    back_extra: "Guarino (1998)"      # 可选：显示在背面的补充信息
+    tags: [ontology, guarino]
 ```
 
 ## 字段说明
@@ -72,6 +98,8 @@ error_log:
 | created | ✅ | 创建日期 |
 | modified | ✅ | 最后修改日期 |
 | tags | ❌ | 自由标签，辅助检索 |
+| anki_cards | ❌ | Anki 卡片列表，agent 生成，脚本同步。初始空数组 |
+| anki_mastery_boost | ❌ | Anki 进度的累计 mastery 加分（0–0.2），脚本维护 |
 
 ## mastery 语义
 

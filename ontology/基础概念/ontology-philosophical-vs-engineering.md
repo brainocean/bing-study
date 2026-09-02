@@ -14,6 +14,27 @@ ease_factor: 2.6
 mastery: 0.4
 correct_streak: 1
 error_log: []
+anki_cards:
+  - anki_note_id: null
+    type: cloze
+    text: "哲学本体论的态度是 {{c1::Realism（试图描述世界真实结构）}}，工程本体论的态度是 {{c2::Instrumentalism（构建有用模型）}}"
+    back_extra: "哲学追问'什么真正存在'，工程追问'需要表达哪些概念'"
+    tags: [ontology, philosophical-ontology, engineering-ontology]
+  - anki_note_id: null
+    type: basic
+    front: "Palantir 为什么把数据层叫 'Ontology' 而不是 'Schema'？比 DB schema 多了哪三层？"
+    back: "1) 业务含义：定义'什么是风险事件'等业务概念，不只是数据结构；2) 操作语义：AI agent 能对实体执行 action；3) 推理能力：从关系推导新知识（如供应链传递影响）"
+    tags: [ontology, palantir, schema]
+  - anki_note_id: null
+    type: basic
+    front: "Aristotle 的本体论比工程 ontology 多追问哪三个问题？"
+    back: "1) 这个分类框架是否正确——是否对应世界的真实结构；2) 为什么是这些 categories 而不是别的——分类本身需要辩护；3) Substance 为什么是第一性的——存在论优先级的论证"
+    tags: [ontology, aristotle, categories]
+  - anki_note_id: null
+    type: basic
+    front: "Aristotle 的 Substance、Accident、Relation 分别对应 Palantir Foundry 的什么概念？"
+    back: "Substance（独立存在的实体）→ Object Type（如 Employee, Facility）；Accident（依附属性）→ Property（如 name, status）；Relation → Link Type（如 employs, supplies_to）"
+    tags: [ontology, aristotle, palantir, mapping]
 created: 2026-08-22
 modified: 2026-08-22
 tags:
