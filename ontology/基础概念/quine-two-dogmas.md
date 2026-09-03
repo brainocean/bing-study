@@ -8,12 +8,12 @@ prerequisites:
 related:
 - '[[ontology-philosophical-vs-engineering]]'
 - '[[open-world-vs-closed-world]]'
-last_review: '2026-09-02'
-next_review: '2026-09-03'
-interval_days: 1
-ease_factor: 2.4
-mastery: 0.3
-correct_streak: 0
+last_review: '2026-09-03'
+next_review: '2026-09-05'
+interval_days: 2
+ease_factor: 2.5
+mastery: 0.4
+correct_streak: 1
 error_log: []
 anki_cards:
 - anki_note_id: 1788357098417
@@ -60,7 +60,7 @@ anki_cards:
   - ontological-commitment
   - pragmatism
 created: 2026-08-22
-modified: '2026-09-02'
+modified: '2026-09-03'
 tags:
 - quine
 - epistemology

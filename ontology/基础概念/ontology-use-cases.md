@@ -9,12 +9,12 @@ prerequisites:
 - '[[ontology-vs-database-vs-conceptual-model]]'
 related:
 - '[[ontology-philosophical-vs-engineering]]'
-last_review: '2026-09-02'
-next_review: '2026-09-03'
-interval_days: 1
-ease_factor: 2.0999999999999996
-mastery: 0.1
-correct_streak: 0
+last_review: '2026-09-03'
+next_review: '2026-09-05'
+interval_days: 2
+ease_factor: 2.1999999999999997
+mastery: 0.2
+correct_streak: 1
 error_log:
 - date: 2026-08-29
   type: 概念混淆
@@ -56,7 +56,7 @@ anki_cards:
   - anti-patterns
   - applications
 created: 2026-08-22
-modified: '2026-09-02'
+modified: '2026-09-03'
 tags:
 - applications
 - data-integration

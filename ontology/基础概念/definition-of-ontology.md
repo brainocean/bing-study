@@ -8,12 +8,12 @@ prerequisites: []
 related:
 - '[[ontology-philosophical-vs-engineering]]'
 - '[[ontology-vs-database-vs-conceptual-model]]'
-last_review: 2026-08-29
-next_review: 2026-08-31
-interval_days: 2
-ease_factor: 2.6
-mastery: 0.4
-correct_streak: 1
+last_review: '2026-09-03'
+next_review: '2026-09-08'
+interval_days: 5
+ease_factor: 2.7
+mastery: 0.5
+correct_streak: 2
 error_log: []
 anki_cards:
 - anki_note_id: 1788357098387
@@ -34,8 +34,7 @@ anki_cards:
   - studer
 - anki_note_id: 1788357098389
   type: cloze
-  text: Guarino (1998) 引入 {{c1::ontological commitment（本体论承诺）}} 概念：选择某个 vocabulary 就意味着你承诺了 {{c2::一种特定的世界观}}，ontology 通过约束把所有可能的模型收窄到
-    {{c3::intended models}}。
+  text: Guarino (1998) 引入 {{c1::ontological commitment（本体论承诺）}} 概念：选择某个 vocabulary 就意味着你承诺了 {{c2::一种特定的世界观}}，ontology 通过约束把所有可能的模型收窄到 {{c3::intended models}}。
   tags:
   - ontology
   - definition
@@ -59,7 +58,7 @@ anki_cards:
   - owl
   - misconception
 created: 2026-08-22
-modified: 2026-08-22
+modified: '2026-09-03'
 tags:
 - definition
 - gruber

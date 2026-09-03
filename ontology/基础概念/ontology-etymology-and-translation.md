@@ -8,12 +8,12 @@ prerequisites: []
 related:
 - '[[ontology-philosophical-vs-engineering]]'
 - '[[definition-of-ontology]]'
-last_review: 2026-08-29
-next_review: 2026-08-31
+last_review: '2026-09-03'
+next_review: '2026-09-05'
 interval_days: 2
-ease_factor: 2.6
+ease_factor: 2.5
 mastery: 0.4
-correct_streak: 1
+correct_streak: 0
 error_log: []
 anki_cards:
 - anki_note_id: 1788357098392
@@ -26,8 +26,7 @@ anki_cards:
 - anki_note_id: 1788357098393
   type: basic
   front: 希腊语动词 εἰμί (to be) 同时承担哪三重功能？这为什么重要？
-  back: 1) 系词 (copula)：S 是 P；2) 存在动词 (existential)：S 存在；3) 同一性 (identity)：A 就是 B。由此 ὄν (on) 天然歧义——同时可指'是者'和'存在者'，这个歧义贯穿 ontology
-    两千年历史，也是中文'本体论'vs'存在论'译名之争的根源。
+  back: 1) 系词 (copula)：S 是 P；2) 存在动词 (existential)：S 存在；3) 同一性 (identity)：A 就是 B。由此 ὄν (on) 天然歧义——同时可指'是者'和'存在者'，这个歧义贯穿 ontology 两千年历史，也是中文'本体论'vs'存在论'译名之争的根源。
   tags:
   - ontology
   - etymology
@@ -53,7 +52,7 @@ anki_cards:
   - chinese-philosophy
   - heidegger
 created: 2026-08-24
-modified: 2026-08-24
+modified: '2026-09-03'
 tags:
 - etymology
 - translation

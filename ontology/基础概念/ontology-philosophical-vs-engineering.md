@@ -7,13 +7,16 @@ prerequisites: []
 related:
 - '[[substance-and-accident]]'
 - '[[categories-aristotle]]'
-last_review: 2026-08-29
-next_review: 2026-08-31
-interval_days: 2
-ease_factor: 2.6
-mastery: 0.4
-correct_streak: 1
-error_log: []
+last_review: '2026-09-03'
+next_review: '2026-09-04'
+interval_days: 1
+ease_factor: 2.4
+mastery: 0.2
+correct_streak: 0
+error_log:
+- date: '2026-09-03'
+  type: 单点遗忘
+  brief: 混淆了 schema 已有能力和 ontology 额外能力；应答含义、操作、推理
 anki_cards:
 - anki_note_id: 1788357098396
   type: cloze
@@ -42,15 +45,14 @@ anki_cards:
 - anki_note_id: 1788357098399
   type: basic
   front: Aristotle 的 Substance、Accident、Relation 分别对应 Palantir Foundry 的什么概念？
-  back: Substance（独立存在的实体）→ Object Type（如 Employee, Facility）；Accident（依附属性）→ Property（如 name, status）；Relation → Link Type（如
-    employs, supplies_to）
+  back: Substance（独立存在的实体）→ Object Type（如 Employee, Facility）；Accident（依附属性）→ Property（如 name, status）；Relation → Link Type（如 employs, supplies_to）
   tags:
   - ontology
   - aristotle
   - palantir
   - mapping
 created: 2026-08-22
-modified: 2026-08-22
+modified: '2026-09-03'
 tags:
 - meta
 - aristotle
