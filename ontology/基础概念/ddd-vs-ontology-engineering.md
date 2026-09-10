@@ -9,18 +9,19 @@ prerequisites:
 related:
 - '[[ontology-philosophical-vs-engineering]]'
 - '[[ontology-use-cases]]'
-last_review: '2026-09-02'
-next_review: '2026-09-05'
-interval_days: 3
-ease_factor: 2.6
-mastery: 0.4
-correct_streak: 1
+last_review: '2026-09-10'
+next_review: '2026-09-18'
+interval_days: 8
+ease_factor: 2.7
+mastery: 0.5
+correct_streak: 2
 error_log: []
 anki_cards:
 - anki_note_id: 1788357098383
   type: basic
   front: DDD 与 ontology engineering 的核心关系是什么？
-  back: DDD 是 ontology engineering 的'应用内特化版'——做同样的认识论工作（知识提取、ontological commitment），但有意识地限制在单个 bounded context 内，放弃形式化推理和跨应用复用。
+  back: DDD 是 ontology engineering 的'应用内特化版'——做同样的认识论工作（知识提取、ontological commitment），但有意识地限制在单个
+    bounded context 内，放弃形式化推理和跨应用复用。
   tags:
   - ontology
   - ddd
@@ -28,7 +29,8 @@ anki_cards:
   - comparison
 - anki_note_id: 1788357098384
   type: cloze
-  text: DDD 的作用域是 {{c1::Bounded Context（单个团队/服务）}}，而 ontology 的作用域是 {{c2::整个领域（跨组织共享）}}。DDD 的 Context Map 对应 ontology engineering 中的 {{c3::ontology alignment / mapping}}。
+  text: DDD 的作用域是 {{c1::Bounded Context（单个团队/服务）}}，而 ontology 的作用域是 {{c2::整个领域（跨组织共享）}}。DDD
+    的 Context Map 对应 ontology engineering 中的 {{c3::ontology alignment / mapping}}。
   tags:
   - ontology
   - ddd
@@ -37,7 +39,8 @@ anki_cards:
 - anki_note_id: 1788357098385
   type: basic
   front: Rice 定理说明了什么？它为何意味着代码不能被自动推理？
-  back: Rice 定理：对图灵完备语言，几乎所有关于程序语义的非平凡性质都是不可判定的。因此无法写一个通用程序来自动判断另一个程序是否满足某语义性质，而 OWL/DL 通过故意限制表达力来换取可判定性。
+  back: Rice 定理：对图灵完备语言，几乎所有关于程序语义的非平凡性质都是不可判定的。因此无法写一个通用程序来自动判断另一个程序是否满足某语义性质，而 OWL/DL
+    通过故意限制表达力来换取可判定性。
   tags:
   - ontology
   - ddd
@@ -54,7 +57,7 @@ anki_cards:
   - decidability
   - tradeoff
 created: 2026-08-22
-modified: '2026-09-02'
+modified: '2026-09-10'
 tags:
 - ddd
 - domain-model

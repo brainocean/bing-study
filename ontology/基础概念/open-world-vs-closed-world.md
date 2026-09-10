@@ -8,18 +8,19 @@ prerequisites: []
 related:
 - '[[ontology-vs-database-vs-conceptual-model]]'
 - '[[definition-of-ontology]]'
-last_review: '2026-09-02'
-next_review: '2026-09-07'
-interval_days: 5
-ease_factor: 2.7
-mastery: 0.5
-correct_streak: 2
+last_review: '2026-09-10'
+next_review: '2026-09-24'
+interval_days: 14
+ease_factor: 2.8
+mastery: 0.6
+correct_streak: 3
 error_log: []
 anki_cards:
 - anki_note_id: 1788357098409
   type: basic
   front: CWA 和 OWA 的核心原则分别是什么？
-  back: CWA（Closed World Assumption）：不在数据库中的信息视为**假**。OWA（Open World Assumption）：不在知识库中的信息视为**未知**。CWA 常用于关系型数据库，OWA 常用于 Ontology / Knowledge Base。
+  back: CWA（Closed World Assumption）：不在数据库中的信息视为**假**。OWA（Open World Assumption）：不在知识库中的信息视为**未知**。CWA
+    常用于关系型数据库，OWA 常用于 Ontology / Knowledge Base。
   tags:
   - ontology
   - owa
@@ -28,7 +29,8 @@ anki_cards:
 - anki_note_id: 1788357098410
   type: basic
   front: '在 OWL 中声明 Bob: Person 但未声明 Bob 是 Student，推理器会得出什么结论？为什么？'
-  back: '推理器**无法断定** Bob 不是 Student（OWA：缺失信息 = 未知）。若需否定，必须显式声明 Person DisjointWith Student，或声明 Bob: ¬Student。'
+  back: '推理器**无法断定** Bob 不是 Student（OWA：缺失信息 = 未知）。若需否定，必须显式声明 Person DisjointWith
+    Student，或声明 Bob: ¬Student。'
   tags:
   - ontology
   - owa
@@ -45,14 +47,15 @@ anki_cards:
 - anki_note_id: 1788357098412
   type: basic
   front: Ontology 为什么采用 OWA 而非 CWA？（三个原因）
-  back: 1. **分布式知识**：Ontology 跨系统共享，无单一来源掌握所有事实；2. **不完备信息**：现实知识永远不完整，断言"不存在"比断言"存在"需要更强证据；3. **可扩展性**：新知识随时可加入，不应破坏已有推理。
+  back: 1. **分布式知识**：Ontology 跨系统共享，无单一来源掌握所有事实；2. **不完备信息**：现实知识永远不完整，断言"不存在"比断言"存在"需要更强证据；3.
+    **可扩展性**：新知识随时可加入，不应破坏已有推理。
   tags:
   - ontology
   - owa
   - reasoning
   - fundamental
 created: 2026-08-22
-modified: '2026-09-02'
+modified: '2026-09-10'
 tags:
 - owa
 - cwa

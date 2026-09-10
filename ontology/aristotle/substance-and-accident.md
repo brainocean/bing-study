@@ -1,69 +1,98 @@
 ---
-title: "Substance & Accident（实体与偶性）"
+title: Substance & Accident（实体与偶性）
 domain: ontology
 topic: Aristotle 本体论
-source: "Aristotle, Metaphysics VII (Z)"
-page: "1028a-1041b"
-
+source: Aristotle, Metaphysics VII (Z)
+page: 1028a-1041b
 prerequisites:
-  - "[[categories]]"
-  - "[[definition-of-ontology]]"
+- '[[categories]]'
+- '[[definition-of-ontology]]'
 related:
-  - "[[being-qua-being]]"
-  - "[[hylomorphism]]"
-  - "[[ontology-philosophical-vs-engineering]]"
-  - "[[ddd-vs-ontology-engineering]]"
-
-last_review: 2026-09-06
-next_review: 2026-09-07
+- '[[being-qua-being]]'
+- '[[hylomorphism]]'
+- '[[ontology-philosophical-vs-engineering]]'
+- '[[ddd-vs-ontology-engineering]]'
+last_review: '2026-09-10'
+next_review: '2026-09-11'
 interval_days: 1
-ease_factor: 2.5
-mastery: 0.4
+ease_factor: 2.3
+mastery: 0.2
 correct_streak: 0
-
-error_log: []
-
+error_log:
+- date: '2026-09-10'
+  type: 单点遗忘
+  brief: ousia 四层含义（个体/本质/种属/基质）完全忘记，无法列出
 anki_cards:
-  - anki_note_id: null
-    type: basic
-    front: "Aristotle 的 ousia（οὐσία）有哪四层含义？"
-    back: "1. 个体（τόδε τι, this something）；2. 本质（τὸ τί ἦν εἶναι, essence）；3. 种属（genus/species）；4. 基质（ὑποκείμενον, substratum）。Categories 中 primary substance = 层次1，secondary = 层次3。Metaphysics 的核心争论在层次2（essence）和层次4（substratum）之间。"
-    tags: [ontology, aristotle, substance, ousia]
-  - anki_note_id: null
-    type: basic
-    front: "Aristotle 为什么否决了'substance = bare substratum'？"
-    back: "剥离一切属性后剩下的是一个没有任何属性的纯'钩子'——不可认识、不可指称、无法与其他基质区分。一个什么都不是的东西不能作为存在的根基。所以 Aristotle 转向 essence 作为 substance 的核心。"
-    tags: [ontology, aristotle, substance, substratum, bare-particular]
-  - anki_note_id: null
-    type: basic
-    front: "Proper accident 和 contingent accident 的区别是什么？"
-    back: "Proper accident 从本质必然推出但不构成本质（如：人能使用工具，从理性推出）；contingent accident 与本质无必然关联、可变（如：苏格拉底坐着）。判断方法：能否从 essence 单独推出该属性。"
-    tags: [ontology, aristotle, accident, proper-accident, contingent-accident]
-  - anki_note_id: null
-    type: cloze
-    text: "Aristotle 认为 substance 的核心是{{c1::essence（本质, τὸ τί ἦν εἶναι）}}——使一个事物成为其所是的结构性原则，而非{{c2::bare substratum（纯基质）}}。"
-    tags: [ontology, aristotle, substance, essence]
-  - anki_note_id: null
-    type: basic
-    front: "Bundle theory 主张'个体只是属性的集合'。Aristotle 式的反驳是什么？"
-    back: "两个论证：1）属性可逐一剥离但个体同一性不变，说明同一性不由属性集合构成；2）某些属性总是共现（如理性+哺乳+直立行走），bundle theory 无法解释这种共现规律——essence 作为统一原则解释了属性之间的必然关联。"
-    tags: [ontology, aristotle, essence, bundle-theory, steel-man]
-  - anki_note_id: null
-    type: cloze
-    text: "Ousia 四层：个体(τόδε τι) → {{c1::本质(τὸ τί ἦν εἶναι)}} → 种属(genus/species) → {{c2::基质(ὑποκείμενον)}}"
-    tags: [ontology, aristotle, ousia]
-
-anki_mastery_boost: 0
-
-created: 2026-09-06
-modified: 2026-09-06
-tags:
+- anki_note_id: null
+  type: basic
+  front: Aristotle 的 ousia（οὐσία）有哪四层含义？
+  back: 1. 个体（τόδε τι, this something）；2. 本质（τὸ τί ἦν εἶναι, essence）；3. 种属（genus/species）；4.
+    基质（ὑποκείμενον, substratum）。Categories 中 primary substance = 层次1，secondary = 层次3。Metaphysics
+    的核心争论在层次2（essence）和层次4（substratum）之间。
+  tags:
+  - ontology
   - aristotle
   - substance
-  - accident
-  - essence
+  - ousia
+- anki_note_id: null
+  type: basic
+  front: Aristotle 为什么否决了'substance = bare substratum'？
+  back: 剥离一切属性后剩下的是一个没有任何属性的纯'钩子'——不可认识、不可指称、无法与其他基质区分。一个什么都不是的东西不能作为存在的根基。所以 Aristotle
+    转向 essence 作为 substance 的核心。
+  tags:
+  - ontology
+  - aristotle
+  - substance
   - substratum
-  - metaphysics-z
+  - bare-particular
+- anki_note_id: null
+  type: basic
+  front: Proper accident 和 contingent accident 的区别是什么？
+  back: Proper accident 从本质必然推出但不构成本质（如：人能使用工具，从理性推出）；contingent accident 与本质无必然关联、可变（如：苏格拉底坐着）。判断方法：能否从
+    essence 单独推出该属性。
+  tags:
+  - ontology
+  - aristotle
+  - accident
+  - proper-accident
+  - contingent-accident
+- anki_note_id: null
+  type: cloze
+  text: Aristotle 认为 substance 的核心是{{c1::essence（本质, τὸ τί ἦν εἶναι）}}——使一个事物成为其所是的结构性原则，而非{{c2::bare
+    substratum（纯基质）}}。
+  tags:
+  - ontology
+  - aristotle
+  - substance
+  - essence
+- anki_note_id: null
+  type: basic
+  front: Bundle theory 主张'个体只是属性的集合'。Aristotle 式的反驳是什么？
+  back: 两个论证：1）属性可逐一剥离但个体同一性不变，说明同一性不由属性集合构成；2）某些属性总是共现（如理性+哺乳+直立行走），bundle theory
+    无法解释这种共现规律——essence 作为统一原则解释了属性之间的必然关联。
+  tags:
+  - ontology
+  - aristotle
+  - essence
+  - bundle-theory
+  - steel-man
+- anki_note_id: null
+  type: cloze
+  text: Ousia 四层：个体(τόδε τι) → {{c1::本质(τὸ τί ἦν εἶναι)}} → 种属(genus/species) → {{c2::基质(ὑποκείμενον)}}
+  tags:
+  - ontology
+  - aristotle
+  - ousia
+anki_mastery_boost: 0
+created: 2026-09-06
+modified: '2026-09-10'
+tags:
+- aristotle
+- substance
+- accident
+- essence
+- substratum
+- metaphysics-z
 ---
 
 # Substance & Accident（实体与偶性）

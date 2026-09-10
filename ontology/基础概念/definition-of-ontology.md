@@ -8,18 +8,19 @@ prerequisites: []
 related:
 - '[[ontology-philosophical-vs-engineering]]'
 - '[[ontology-vs-database-vs-conceptual-model]]'
-last_review: '2026-09-03'
-next_review: '2026-09-08'
+last_review: '2026-09-10'
+next_review: '2026-09-15'
 interval_days: 5
 ease_factor: 2.7
-mastery: 0.5
-correct_streak: 2
+mastery: 0.55
+correct_streak: 0
 error_log: []
 anki_cards:
 - anki_note_id: 1788357098387
   type: basic
   front: Gruber (1993) 对 ontology 的定义是什么？这个定义有什么根本问题？
-  back: '"An ontology is a specification of a conceptualization." 问题在于用 specification 和 conceptualization 两个模糊词去解释第三个模糊词，定义缺乏精确性。'
+  back: '"An ontology is a specification of a conceptualization." 问题在于用 specification
+    和 conceptualization 两个模糊词去解释第三个模糊词，定义缺乏精确性。'
   tags:
   - ontology
   - definition
@@ -34,7 +35,8 @@ anki_cards:
   - studer
 - anki_note_id: 1788357098389
   type: cloze
-  text: Guarino (1998) 引入 {{c1::ontological commitment（本体论承诺）}} 概念：选择某个 vocabulary 就意味着你承诺了 {{c2::一种特定的世界观}}，ontology 通过约束把所有可能的模型收窄到 {{c3::intended models}}。
+  text: Guarino (1998) 引入 {{c1::ontological commitment（本体论承诺）}} 概念：选择某个 vocabulary
+    就意味着你承诺了 {{c2::一种特定的世界观}}，ontology 通过约束把所有可能的模型收窄到 {{c3::intended models}}。
   tags:
   - ontology
   - definition
@@ -51,14 +53,15 @@ anki_cards:
 - anki_note_id: 1788357098391
   type: basic
   front: 为什么'用 OWL 写了就是 ontology'这种说法是错误的？
-  back: 把 thesaurus 转成 OWL 格式不会使其自动变成 ontology（缺乏概念关系和约束）；反之，非 OWL 表达的知识体系也可以是 ontology。形式 ≠ 内容。
+  back: 把 thesaurus 转成 OWL 格式不会使其自动变成 ontology（缺乏概念关系和约束）；反之，非 OWL 表达的知识体系也可以是 ontology。形式
+    ≠ 内容。
   tags:
   - ontology
   - definition
   - owl
   - misconception
 created: 2026-08-22
-modified: '2026-09-03'
+modified: '2026-09-10'
 tags:
 - definition
 - gruber

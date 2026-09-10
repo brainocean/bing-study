@@ -1,64 +1,82 @@
 ---
-title: "Being qua Being（存在之为存在）"
+title: Being qua Being（存在之为存在）
 domain: ontology
 topic: Aristotle 本体论
-source: "Aristotle, Metaphysics IV (Γ)"
-page: "1003a-1012b"
-
+source: Aristotle, Metaphysics IV (Γ)
+page: 1003a-1012b
 prerequisites:
-  - "[[categories]]"
-  - "[[substance-and-accident]]"
+- '[[categories]]'
+- '[[substance-and-accident]]'
 related:
-  - "[[definition-of-ontology]]"
-  - "[[ontology-philosophical-vs-engineering]]"
-  - "[[open-world-vs-closed-world]]"
-
-last_review: 2026-09-06
-next_review: 2026-09-07
-interval_days: 1
-ease_factor: 2.5
-mastery: 0.4
-correct_streak: 0
-
+- '[[definition-of-ontology]]'
+- '[[ontology-philosophical-vs-engineering]]'
+- '[[open-world-vs-closed-world]]'
+last_review: '2026-09-10'
+next_review: '2026-09-12'
+interval_days: 2
+ease_factor: 2.6
+mastery: 0.5
+correct_streak: 1
 error_log: []
-
 anki_cards:
-  - anki_note_id: null
-    type: basic
-    front: "Aristotle 所说的 being qua being（存在之为存在）研究的是什么？它跟物理学等具体学科的区别在哪？"
-    back: "具体学科（物理、数学、生物）研究已经认定存在的事物的某个侧面（运动、量、生命）。Being qua being 退后一步，研究'存在'本身的结构——有几种存在方式、它们之间什么关系、遵循什么基本规则。它检查的是具体学科默认但不检查的地基。"
-    tags: [ontology, aristotle, being-qua-being, first-philosophy]
-  - anki_note_id: null
-    type: basic
-    front: "Pros hen（向一）结构是什么意思？它跟 univocal（单义）和 equivocal（纯多义）的区别在哪？"
-    back: "Univocal：所有用法含义完全相同。Equivocal：碰巧同一个词，含义毫无关联。Pros hen：不同含义之间有方向性的关联，都指向一个核心义。'存在'的核心义是 substance 的存在，其他范畴（quality, relation 等）的存在是围绕 substance 的派生义。"
-    tags: [ontology, aristotle, pros-hen, being]
-  - anki_note_id: null
-    type: basic
-    front: "Aristotle 为什么说不矛盾律（PNC）'不可证明但不可否认'？"
-    back: "不可证明：任何证明都由前提推出结论，而前提本身已经预设了 PNC，所以没有比 PNC 更基础的东西来证明它。不可否认：否认 PNC 的人在否认那一刻就在使用它（'我的否认为真而非为假'），否认它会导致语言和思维崩塌——任何主张同时也是它自己的反面。（elenctic argument）"
-    tags: [ontology, aristotle, pnc, non-contradiction]
-  - anki_note_id: null
-    type: cloze
-    text: "'存在'的 pros hen 结构中，核心义是{{c1::substance 的存在}}，其他范畴（quality, relation 等）的存在都是围绕核心的{{c2::派生义}}。"
-    tags: [ontology, aristotle, pros-hen, substance]
-  - anki_note_id: null
-    type: basic
-    front: "Aristotle 的 pros hen 结构如何回应 Parmenides '变化不可能'的论证？"
-    back: "Parmenides 预设'存在'是单义的（univocal），所以从不存在到存在是不可能的跳跃。Aristotle 反驳：'存在'有多种方式（pros hen），'不存在'也有多种方式。变化不是从绝对不存在到绝对存在，而是从一种存在方式到另一种——如从潜在存在到现实存在。"
-    tags: [ontology, aristotle, pros-hen, parmenides, change]
-
-anki_mastery_boost: 0
-
-created: 2026-09-06
-modified: 2026-09-06
-tags:
+- anki_note_id: null
+  type: basic
+  front: Aristotle 所说的 being qua being（存在之为存在）研究的是什么？它跟物理学等具体学科的区别在哪？
+  back: 具体学科（物理、数学、生物）研究已经认定存在的事物的某个侧面（运动、量、生命）。Being qua being 退后一步，研究'存在'本身的结构——有几种存在方式、它们之间什么关系、遵循什么基本规则。它检查的是具体学科默认但不检查的地基。
+  tags:
+  - ontology
   - aristotle
-  - metaphysics-gamma
   - being-qua-being
-  - pros-hen
-  - pnc
   - first-philosophy
+- anki_note_id: null
+  type: basic
+  front: Pros hen（向一）结构是什么意思？它跟 univocal（单义）和 equivocal（纯多义）的区别在哪？
+  back: Univocal：所有用法含义完全相同。Equivocal：碰巧同一个词，含义毫无关联。Pros hen：不同含义之间有方向性的关联，都指向一个核心义。'存在'的核心义是
+    substance 的存在，其他范畴（quality, relation 等）的存在是围绕 substance 的派生义。
+  tags:
+  - ontology
+  - aristotle
+  - pros-hen
+  - being
+- anki_note_id: null
+  type: basic
+  front: Aristotle 为什么说不矛盾律（PNC）'不可证明但不可否认'？
+  back: 不可证明：任何证明都由前提推出结论，而前提本身已经预设了 PNC，所以没有比 PNC 更基础的东西来证明它。不可否认：否认 PNC 的人在否认那一刻就在使用它（'我的否认为真而非为假'），否认它会导致语言和思维崩塌——任何主张同时也是它自己的反面。（elenctic
+    argument）
+  tags:
+  - ontology
+  - aristotle
+  - pnc
+  - non-contradiction
+- anki_note_id: null
+  type: cloze
+  text: '''存在''的 pros hen 结构中，核心义是{{c1::substance 的存在}}，其他范畴（quality, relation 等）的存在都是围绕核心的{{c2::派生义}}。'
+  tags:
+  - ontology
+  - aristotle
+  - pros-hen
+  - substance
+- anki_note_id: null
+  type: basic
+  front: Aristotle 的 pros hen 结构如何回应 Parmenides '变化不可能'的论证？
+  back: Parmenides 预设'存在'是单义的（univocal），所以从不存在到存在是不可能的跳跃。Aristotle 反驳：'存在'有多种方式（pros
+    hen），'不存在'也有多种方式。变化不是从绝对不存在到绝对存在，而是从一种存在方式到另一种——如从潜在存在到现实存在。
+  tags:
+  - ontology
+  - aristotle
+  - pros-hen
+  - parmenides
+  - change
+anki_mastery_boost: 0
+created: 2026-09-06
+modified: '2026-09-10'
+tags:
+- aristotle
+- metaphysics-gamma
+- being-qua-being
+- pros-hen
+- pnc
+- first-philosophy
 ---
 
 # Being qua Being（存在之为存在）

@@ -8,18 +8,19 @@ prerequisites:
 related:
 - '[[ontology-philosophical-vs-engineering]]'
 - '[[open-world-vs-closed-world]]'
-last_review: '2026-09-03'
-next_review: '2026-09-05'
-interval_days: 2
-ease_factor: 2.5
-mastery: 0.4
-correct_streak: 1
+last_review: '2026-09-10'
+next_review: '2026-09-15'
+interval_days: 5
+ease_factor: 2.6
+mastery: 0.5
+correct_streak: 2
 error_log: []
 anki_cards:
 - anki_note_id: 1788357098417
   type: basic
   front: Quine 在《Two Dogmas of Empiricism》中攻击的两个教条是什么？
-  back: 1. **分析/综合区分**：有些命题纯靠意义为真（分析），有些靠经验（综合）——Quine 论证这个区分无法给出非循环定义；2. **还原论**：每个有意义的命题都可还原为关于感觉经验的命题——Quine 以整体论反驳之。
+  back: 1. **分析/综合区分**：有些命题纯靠意义为真（分析），有些靠经验（综合）——Quine 论证这个区分无法给出非循环定义；2. **还原论**：每个有意义的命题都可还原为关于感觉经验的命题——Quine
+    以整体论反驳之。
   tags:
   - ontology
   - quine
@@ -45,7 +46,8 @@ anki_cards:
 - anki_note_id: 1788357098420
   type: basic
   front: Quine 的整体论对 ontological commitment 意味着什么？
-  back: 选择什么 ontology（承认什么存在）和选择什么物理定律是同一种选择——都是为了让整体信念网最融贯、最简洁、最能应对经验。没有'正确的 ontology'等着被发现，只有对当前目的最实用的 ontology，换了目的可以换 ontology。
+  back: 选择什么 ontology（承认什么存在）和选择什么物理定律是同一种选择——都是为了让整体信念网最融贯、最简洁、最能应对经验。没有'正确的 ontology'等着被发现，只有对当前目的最实用的
+    ontology，换了目的可以换 ontology。
   tags:
   - ontology
   - quine
@@ -60,7 +62,7 @@ anki_cards:
   - ontological-commitment
   - pragmatism
 created: 2026-08-22
-modified: '2026-09-03'
+modified: '2026-09-10'
 tags:
 - quine
 - epistemology
@@ -112,9 +114,15 @@ Quine 的反驳 — **整体论（Holism）**：
 
 单个命题**从不独自面对经验**，总是作为整个理论体系的一部分接受检验。
 
-**例子**：观测到水星轨道异常。否证了什么？
-- 牛顿力学？望远镜校准？初始条件测量？"无未知天体"假设？
-- 实际历史：先假设有未知行星（发现海王星），后来才接受广义相对论
+**例子对比：天王星 vs 水星——信念网的不同调整策略**
+
+| | 天王星轨道异常 (1846) | 水星轨道异常 (1859→1915) |
+|---|---|---|
+| 现象 | 轨道偏离牛顿力学预测 | 近日点进动偏离牛顿预测 |
+| 可调整的节点 | ① 牛顿力学有误 ② 观测数据有误 ③ 存在未知行星 | ① 牛顿力学有误 ② 观测数据有误 ③ 存在未知行星（Vulcan） |
+| 实际选择 | ③ 引入海王星——边缘加一个节点，代价最小 | 先试 ③（找 Vulcan，失败），最终选 ① 用广义相对论替换牛顿力学 |
+| 为什么这样选 | 牛顿力学在网络核心，解释海量现象，丢掉代价巨大；加一颗行星几乎不扰动其他节点 | 累积异常（水星+其他）使保留牛顿力学的修补代价越来越高，最终替换核心节点反而更经济 |
+| 信念网原理 | **最小扰动优先**：能在边缘修就不动核心 | **没有节点免于修正**：核心节点的修补代价累积到阈值时，替换它比维持它更便宜 |
 
 **推论**：
 - 任何命题都可以通过调整体系其他部分而被"拯救"

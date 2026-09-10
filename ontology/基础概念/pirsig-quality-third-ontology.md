@@ -8,12 +8,12 @@ prerequisites:
 - '[[ontology-philosophical-vs-engineering]]'
 related:
 - '[[definition-of-ontology]]'
-last_review: '2026-09-02'
-next_review: '2026-09-05'
-interval_days: 3
-ease_factor: 2.6
-mastery: 0.4
-correct_streak: 1
+last_review: '2026-09-10'
+next_review: '2026-09-18'
+interval_days: 8
+ease_factor: 2.7
+mastery: 0.5
+correct_streak: 2
 error_log: []
 anki_cards:
 - anki_note_id: 1788357098413
@@ -28,7 +28,8 @@ anki_cards:
 - anki_note_id: 1788357098414
   type: basic
   front: Pirsig 框架中的 Quality 是什么？
-  back: Quality 是在认知介入（概念化、主客分裂）**之前**就已经体验到的直接'好/坏/对/不对'的感受。例如骑摩托车进弯道时，在分析弯道参数或意识到恐惧之前，身体已经在调整——那个前于思考的'知道'就是 Quality。
+  back: Quality 是在认知介入（概念化、主客分裂）**之前**就已经体验到的直接'好/坏/对/不对'的感受。例如骑摩托车进弯道时，在分析弯道参数或意识到恐惧之前，身体已经在调整——那个前于思考的'知道'就是
+    Quality。
   tags:
   - ontology
   - pirsig
@@ -36,7 +37,8 @@ anki_cards:
   - metaphysics
 - anki_note_id: 1788357098415
   type: cloze
-  text: 三种 ontological commitment：唯物主义的基本存在物是 {{c1::Matter}}，唯心主义是 {{c2::Mind/Idea}}，Pirsig 是 {{c3::Quality（价值事件）}}
+  text: 三种 ontological commitment：唯物主义的基本存在物是 {{c1::Matter}}，唯心主义是 {{c2::Mind/Idea}}，Pirsig
+    是 {{c3::Quality（价值事件）}}
   tags:
   - ontology
   - pirsig
@@ -45,14 +47,15 @@ anki_cards:
 - anki_note_id: 1788357098416
   type: basic
   front: 为什么 Quality 无法在工程 ontology 中被形式化？
-  back: Pirsig 坚持 Quality 不能被定义——定义它就是将其降格为主客框架内的东西。而工程 ontology 需要形式化才能支持推理，因此有意识地选择在'主客分裂之后'工作。Quality 在工程 ontology 的操作范围之外。
+  back: Pirsig 坚持 Quality 不能被定义——定义它就是将其降格为主客框架内的东西。而工程 ontology 需要形式化才能支持推理，因此有意识地选择在'主客分裂之后'工作。Quality
+    在工程 ontology 的操作范围之外。
   tags:
   - ontology
   - pirsig
   - quality
   - formalization
 created: 2026-08-22
-modified: '2026-09-02'
+modified: '2026-09-10'
 tags:
 - pirsig
 - quality

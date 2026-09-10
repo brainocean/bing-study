@@ -1,71 +1,98 @@
 ---
-title: "Aristotle's Categories（范畴篇）"
+title: Aristotle's Categories（范畴篇）
 domain: ontology
 topic: Aristotle 本体论
-source: "Aristotle, Categories"
-page: "1a-15b"
-
+source: Aristotle, Categories
+page: 1a-15b
 prerequisites:
-  - "[[definition-of-ontology]]"
-  - "[[ontology-philosophical-vs-engineering]]"
+- '[[definition-of-ontology]]'
+- '[[ontology-philosophical-vs-engineering]]'
 related:
-  - "[[substance-and-accident]]"
-  - "[[being-qua-being]]"
-  - "[[open-world-vs-closed-world]]"
-  - "[[ddd-vs-ontology-engineering]]"
-
-last_review: 2026-09-04
-next_review: 2026-09-05
+- '[[substance-and-accident]]'
+- '[[being-qua-being]]'
+- '[[open-world-vs-closed-world]]'
+- '[[ddd-vs-ontology-engineering]]'
+last_review: '2026-09-10'
+next_review: '2026-09-11'
 interval_days: 1
-ease_factor: 2.5
-mastery: 0.4
+ease_factor: 2.3
+mastery: 0.2
 correct_streak: 0
-
 error_log:
-  - date: 2026-09-04
-    type: 表述不精确
-    brief: "said of / present in 的方向说反了：应该是'白色 present in 墙'而非'墙 present in 白色'"
-
+- date: 2026-09-04
+  type: 表述不精确
+  brief: said of / present in 的方向说反了：应该是'白色 present in 墙'而非'墙 present in 白色'
+- date: '2026-09-10'
+  type: 单点遗忘
+  brief: said of / present in 方向第二次说反：'snow presents in white'而非'white is present
+    in snow'。根因：把形容词 present（在场的）误读为动词 present（呈现）
 anki_cards:
-  - anki_note_id: null
-    type: basic
-    front: "Aristotle 的 Categories 中，primary substance 和 secondary substance 分别指什么？"
-    back: "Primary substance 是具体个体（如苏格拉底、这匹马）；secondary substance 是种（species）和属（genus）（如'人'、'动物'）。Primary substance 在本体论上优先——若无个体，种属无从谈起。"
-    tags: [ontology, aristotle, categories, substance]
-  - anki_note_id: null
-    type: basic
-    front: "'Said of' 和 'present in' 这两种本体论关系的区别是什么？"
-    back: "Said of = 类型归属（'人' said of 苏格拉底），定义可传递；present in = 属性依附（'白色' present in 墙），定义不传递。关键判据：去掉后是否改变实体本质——类型不可剥离，属性可以变化。"
-    tags: [ontology, aristotle, categories, said-of, present-in]
-  - anki_note_id: null
-    type: basic
-    front: "Aristotle 的十范畴中，substance 为何享有特殊地位？"
-    back: "Substance 是一切谓述和属性的终极承载者——其余九个范畴（quantity, quality, relation 等）都必须依附于 substance 存在，不能独立漂浮。Primary substance 既不 said of 任何东西，也不 present in 任何东西。"
-    tags: [ontology, aristotle, categories, substance]
-  - anki_note_id: null
-    type: cloze
-    text: "Aristotle 的 said of / present in 交叉组合中，primary substance 独占{{c1::既不 said of 也不 present in}}的位置，是整个范畴体系的终极承载者。"
-    tags: [ontology, aristotle, categories]
-  - anki_note_id: null
-    type: basic
-    front: "Aristotle 关于 universals 的立场与 Plato 有何不同？用 in rebus / ante rem 术语。"
-    back: "Plato: universals ante rem（先于事物，独立存在于理念世界）。Aristotle: universals in rebus（在事物之中，种和属是个体内在的真实结构，但不脱离个体独立存在）。Aristotle 翻转了优先关系——个体先于类型。"
-    tags: [ontology, aristotle, plato, universals, realism]
-  - anki_note_id: null
-    type: cloze
-    text: "Aristotle 的十范畴：Substance, {{c1::Quantity}}, {{c2::Quality}}, {{c3::Relation}}, Place, Time, Position, Having, Action, Passion"
-    tags: [ontology, aristotle, categories]
-
-anki_mastery_boost: 0
-
-created: 2026-09-04
-modified: 2026-09-04
-tags:
+- anki_note_id: null
+  type: basic
+  front: Aristotle 的 Categories 中，primary substance 和 secondary substance 分别指什么？
+  back: Primary substance 是具体个体（如苏格拉底、这匹马）；secondary substance 是种（species）和属（genus）（如'人'、'动物'）。Primary
+    substance 在本体论上优先——若无个体，种属无从谈起。
+  tags:
+  - ontology
   - aristotle
   - categories
   - substance
+- anki_note_id: null
+  type: basic
+  front: '''Said of'' 和 ''present in'' 这两种本体论关系的区别是什么？'
+  back: Said of = 类型归属（'人' said of 苏格拉底），定义可传递；present in = 属性依附（'白色' present in 墙），定义不传递。关键判据：去掉后是否改变实体本质——类型不可剥离，属性可以变化。
+  tags:
+  - ontology
+  - aristotle
+  - categories
+  - said-of
+  - present-in
+- anki_note_id: null
+  type: basic
+  front: Aristotle 的十范畴中，substance 为何享有特殊地位？
+  back: Substance 是一切谓述和属性的终极承载者——其余九个范畴（quantity, quality, relation 等）都必须依附于 substance
+    存在，不能独立漂浮。Primary substance 既不 said of 任何东西，也不 present in 任何东西。
+  tags:
+  - ontology
+  - aristotle
+  - categories
+  - substance
+- anki_note_id: null
+  type: cloze
+  text: Aristotle 的 said of / present in 交叉组合中，primary substance 独占{{c1::既不 said of
+    也不 present in}}的位置，是整个范畴体系的终极承载者。
+  tags:
+  - ontology
+  - aristotle
+  - categories
+- anki_note_id: null
+  type: basic
+  front: Aristotle 关于 universals 的立场与 Plato 有何不同？用 in rebus / ante rem 术语。
+  back: 'Plato: universals ante rem（先于事物，独立存在于理念世界）。Aristotle: universals in rebus（在事物之中，种和属是个体内在的真实结构，但不脱离个体独立存在）。Aristotle
+    翻转了优先关系——个体先于类型。'
+  tags:
+  - ontology
+  - aristotle
+  - plato
   - universals
-  - moderate-realism
+  - realism
+- anki_note_id: null
+  type: cloze
+  text: Aristotle 的十范畴：Substance, {{c1::Quantity}}, {{c2::Quality}}, {{c3::Relation}},
+    Place, Time, Position, Having, Action, Passion
+  tags:
+  - ontology
+  - aristotle
+  - categories
+anki_mastery_boost: 0
+created: 2026-09-04
+modified: '2026-09-10'
+tags:
+- aristotle
+- categories
+- substance
+- universals
+- moderate-realism
 ---
 
 # Aristotle's Categories（范畴篇）
