@@ -39,6 +39,7 @@
 8. **佛教蕴分析与 Quinean nominalism 的平行**：所有"整体"都是聚合的集合名词；佛教比 Quine 更激进——连 primary substance 的同一性都消解
 9. **Form 的 ontological commitment 经由解释不可消除性成立**：接受 Quine 的 indispensability argument——如果每一层因果解释都必须引用 form，那已经对 form 有 ontological commitment。Reductionism 重新定位 form 但从未消除它。
 10. **能耗最优与 hylomorphism 的暗合**：物理系统趋向最低能态，最低能态往往不是均匀的（晶体、超导、蛋白质折叠）→ form 可能是 matter 在能量最小化下的自然倾向，与 Aristotle 的 telos 概念暗合。
+11. **Compressionist nominalism**：Form = 对 matter 客观 regularity 的有损压缩。压缩方案由 inquiry 的目的（loss function）决定。不同压缩方案不收敛，收敛的是被压缩的原始信号。比标准 nominalism 更精确：不否认 regularity 的客观性，只否认 form 的唯一性和客观性。人类选择性关注有规律的部分（selection-biased），忽略不可压缩的部分。
 
 ## 已知薄弱点
 
