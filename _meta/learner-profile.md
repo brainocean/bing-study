@@ -37,6 +37,8 @@
 6. **Nominalist 用 realist 的工具**：即使不相信 natural kinds 客观存在，substance/accident 区分作为建模工具（DDD Entity/VO、KG Individual/Property）仍然有效——工程上享受 Aristotle 框架的建模能力，哲学上不承担本体论包袱
 7. **Aristotle 的 in rebus realism 与 Plato 的 ante rem realism 同构**：两者都 posit 客观标准，差异仅在于标准是否可修正；真正的 fault line 是客观标准是否存在
 8. **佛教蕴分析与 Quinean nominalism 的平行**：所有"整体"都是聚合的集合名词；佛教比 Quine 更激进——连 primary substance 的同一性都消解
+9. **Form 的 ontological commitment 经由解释不可消除性成立**：接受 Quine 的 indispensability argument——如果每一层因果解释都必须引用 form，那已经对 form 有 ontological commitment。Reductionism 重新定位 form 但从未消除它。
+10. **能耗最优与 hylomorphism 的暗合**：物理系统趋向最低能态，最低能态往往不是均匀的（晶体、超导、蛋白质折叠）→ form 可能是 matter 在能量最小化下的自然倾向，与 Aristotle 的 telos 概念暗合。
 
 ## 已知薄弱点
 
