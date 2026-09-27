@@ -7,12 +7,12 @@ prerequisites: []
 related:
 - '[[substance-and-accident]]'
 - '[[categories-aristotle]]'
-last_review: '2026-09-10'
-next_review: '2026-09-12'
+last_review: '2026-09-27'
+next_review: '2026-09-29'
 interval_days: 2
 ease_factor: 2.5
 mastery: 0.3
-correct_streak: 1
+correct_streak: 0
 error_log:
 - date: '2026-09-03'
   type: 单点遗忘
@@ -54,7 +54,7 @@ anki_cards:
   - palantir
   - mapping
 created: 2026-08-22
-modified: '2026-09-10'
+modified: '2026-09-27'
 tags:
 - meta
 - aristotle

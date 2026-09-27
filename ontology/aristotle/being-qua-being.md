@@ -11,13 +11,16 @@ related:
 - '[[definition-of-ontology]]'
 - '[[ontology-philosophical-vs-engineering]]'
 - '[[open-world-vs-closed-world]]'
-last_review: '2026-09-10'
-next_review: '2026-09-12'
-interval_days: 2
-ease_factor: 2.6
-mastery: 0.5
-correct_streak: 1
-error_log: []
+last_review: '2026-09-27'
+next_review: '2026-09-28'
+interval_days: 1
+ease_factor: 2.5
+mastery: 0.4
+correct_streak: 0
+error_log:
+- date: '2026-09-27'
+  type: 理解表面化
+  brief: pros hen 结构理解不到位：给出的是二元关系(理论→规律)而非多对一辐射结构。能复述定义但无法自主构造例子
 anki_cards:
 - anki_note_id: null
   type: basic
@@ -69,7 +72,7 @@ anki_cards:
   - change
 anki_mastery_boost: 0
 created: 2026-09-06
-modified: '2026-09-10'
+modified: '2026-09-27'
 tags:
 - aristotle
 - metaphysics-gamma

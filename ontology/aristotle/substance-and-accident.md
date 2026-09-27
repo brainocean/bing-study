@@ -12,16 +12,20 @@ related:
 - '[[hylomorphism]]'
 - '[[ontology-philosophical-vs-engineering]]'
 - '[[ddd-vs-ontology-engineering]]'
-last_review: '2026-09-10'
-next_review: '2026-09-11'
-interval_days: 1
+last_review: '2026-09-27'
+next_review: '2026-09-29'
+interval_days: 2
 ease_factor: 2.3
-mastery: 0.2
+mastery: 0.25
 correct_streak: 0
 error_log:
 - date: '2026-09-10'
   type: 单点遗忘
   brief: ousia 四层含义（个体/本质/种属/基质）完全忘记，无法列出
+- date: '2026-09-27'
+  type: 表述不精确
+  brief: 四层全记住(进步)，但本质类比为class(应为class invariant/contract)，基质类比为instance identity(应为bare
+    pointer)
 anki_cards:
 - anki_note_id: null
   type: basic
@@ -85,7 +89,7 @@ anki_cards:
   - ousia
 anki_mastery_boost: 0
 created: 2026-09-06
-modified: '2026-09-10'
+modified: '2026-09-27'
 tags:
 - aristotle
 - substance

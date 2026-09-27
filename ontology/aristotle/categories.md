@@ -12,11 +12,11 @@ related:
 - '[[being-qua-being]]'
 - '[[open-world-vs-closed-world]]'
 - '[[ddd-vs-ontology-engineering]]'
-last_review: '2026-09-10'
-next_review: '2026-09-11'
+last_review: '2026-09-27'
+next_review: '2026-09-28'
 interval_days: 1
-ease_factor: 2.3
-mastery: 0.2
+ease_factor: 2.1
+mastery: 0.1
 correct_streak: 0
 error_log:
 - date: 2026-09-04
@@ -26,6 +26,10 @@ error_log:
   type: 单点遗忘
   brief: said of / present in 方向第二次说反：'snow presents in white'而非'white is present
     in snow'。根因：把形容词 present（在场的）误读为动词 present（呈现）
+- date: '2026-09-27'
+  type: 概念混淆
+  brief: present in 方向第三次错：写成'张三 is present in Finance'而非'Finance is present in 张三'。said
+    of 方向已纠正(2/3对)。根因：把 present in 理解为'存在于…之中'而非'依附于'
 anki_cards:
 - anki_note_id: null
   type: basic
@@ -86,7 +90,7 @@ anki_cards:
   - categories
 anki_mastery_boost: 0
 created: 2026-09-04
-modified: '2026-09-10'
+modified: '2026-09-27'
 tags:
 - aristotle
 - categories

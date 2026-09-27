@@ -8,12 +8,12 @@ prerequisites: []
 related:
 - '[[ontology-philosophical-vs-engineering]]'
 - '[[definition-of-ontology]]'
-last_review: '2026-09-10'
-next_review: '2026-09-12'
-interval_days: 2
-ease_factor: 2.5
-mastery: 0.45
-correct_streak: 0
+last_review: '2026-09-27'
+next_review: '2026-10-02'
+interval_days: 5
+ease_factor: 2.6
+mastery: 0.55
+correct_streak: 1
 error_log: []
 anki_cards:
 - anki_note_id: 1788357098392
@@ -54,7 +54,7 @@ anki_cards:
   - chinese-philosophy
   - heidegger
 created: 2026-08-24
-modified: '2026-09-10'
+modified: '2026-09-27'
 tags:
 - etymology
 - translation
