@@ -9,13 +9,17 @@ prerequisites:
 related:
 - '[[open-world-vs-closed-world]]'
 - '[[ontology-philosophical-vs-engineering]]'
-last_review: '2026-09-10'
-next_review: '2026-09-15'
-interval_days: 5
-ease_factor: 2.6
-mastery: 0.5
-correct_streak: 1
-error_log: []
+last_review: '2026-09-29'
+next_review: '2026-10-01'
+interval_days: 2
+ease_factor: 2.5
+mastery: 0.4
+correct_streak: 0
+error_log:
+- date: '2026-09-29'
+  type: 表述不精确
+  brief: 问 ontology vs 概念模型区别，答成 ontology vs DB 的区别（推理/约束）。核心区分是 application-independent
+    vs application-specific
 anki_cards:
 - anki_note_id: 1788357098404
   type: basic
@@ -66,7 +70,7 @@ anki_cards:
   - tbox-abox
   - knowledge-base
 created: 2026-08-22
-modified: '2026-09-10'
+modified: '2026-09-29'
 tags:
 - comparison
 - database

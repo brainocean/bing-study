@@ -8,12 +8,12 @@ prerequisites: []
 related:
 - '[[ontology-philosophical-vs-engineering]]'
 - '[[ontology-vs-database-vs-conceptual-model]]'
-last_review: '2026-09-10'
-next_review: '2026-09-15'
-interval_days: 5
-ease_factor: 2.7
-mastery: 0.55
-correct_streak: 0
+last_review: '2026-09-29'
+next_review: '2026-10-13'
+interval_days: 14
+ease_factor: 2.8
+mastery: 0.65
+correct_streak: 1
 error_log: []
 anki_cards:
 - anki_note_id: 1788357098387
@@ -61,7 +61,7 @@ anki_cards:
   - owl
   - misconception
 created: 2026-08-22
-modified: '2026-09-10'
+modified: '2026-09-29'
 tags:
 - definition
 - gruber

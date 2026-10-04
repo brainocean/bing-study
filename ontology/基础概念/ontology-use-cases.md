@@ -9,12 +9,12 @@ prerequisites:
 - '[[ontology-vs-database-vs-conceptual-model]]'
 related:
 - '[[ontology-philosophical-vs-engineering]]'
-last_review: '2026-09-10'
-next_review: '2026-09-14'
-interval_days: 4
-ease_factor: 2.3
-mastery: 0.3
-correct_streak: 2
+last_review: '2026-09-29'
+next_review: '2026-09-30'
+interval_days: 1
+ease_factor: 2.1
+mastery: 0.2
+correct_streak: 0
 error_log:
 - date: 2026-08-29
   type: 概念混淆
@@ -23,6 +23,10 @@ error_log:
 - date: '2026-09-02'
   type: 概念混淆
   brief: 第三次混淆 data-level integration：描述为"概念映射"，实际是各数据库用同一 ontology term ID 标注实例数据
+- date: '2026-09-29'
+  type: 概念混淆
+  brief: 将 schema-level integration 场景误判为 data-level。根因：把'通过ID关联'等同于 data-level，忽略了
+    data-level 的前提是已有共享 term ID
 anki_cards:
 - anki_note_id: 1788357098400
   type: basic
@@ -61,7 +65,7 @@ anki_cards:
   - anti-patterns
   - applications
 created: 2026-08-22
-modified: '2026-09-10'
+modified: '2026-09-29'
 tags:
 - applications
 - data-integration
