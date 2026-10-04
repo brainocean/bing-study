@@ -41,6 +41,7 @@
 10. **能耗最优与 hylomorphism 的暗合**：物理系统趋向最低能态，最低能态往往不是均匀的（晶体、超导、蛋白质折叠）→ form 可能是 matter 在能量最小化下的自然倾向，与 Aristotle 的 telos 概念暗合。
 11. **Compressionist nominalism**：Form = 对 matter 客观 regularity 的有损压缩。压缩方案由 inquiry 的目的（loss function）决定。不同压缩方案不收敛，收敛的是被压缩的原始信号。比标准 nominalism 更精确：不否认 regularity 的客观性，只否认 form 的唯一性和客观性。人类选择性关注有规律的部分（selection-biased），忽略不可压缩的部分。
 12. **Quality = 语言压缩的损失部分**：Pirsig 的 Quality 在语言/逻辑场域内是 performative contradiction（不可定义的东西不可讨论），但它指向的现象（心流、美食、冥想、艺术体验）是真实的。从 compressionist 框架看，Quality 是语言有损压缩时丢掉的信息——不是"更原始的本体"，而是压缩算法的盲区提醒。承认语言的边界，不等于接受 Pirsig 的形而上学。
+13. **计算不可约性与身体认知的耦合**：Wolfram 的计算不可约 → 语言/逻辑（作为压缩）原则上无法捕获不可约过程 → 但人体作为物理系统在同一基底运行，可以通过动力学同构耦合（非符号化中介）直接"运行"这些过程。老陶匠感觉泥、音乐家即兴、冥想洞察——身体作为物理模拟器跑了不可约过程，语言只能事后有损压缩。与 Merleau-Ponty 身体现象学、4E cognition、Friston 自由能原理对应。与洞察 #1（能耗最优）、#10（能耗与 telos 暗合）、#12（Quality 作为压缩损失）形成链条。注意边界：用"同构耦合"而非"共振感应"，避免滑入 new age。
 
 ## 已知薄弱点
 
