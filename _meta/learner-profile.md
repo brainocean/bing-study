@@ -1,6 +1,6 @@
 # 学习者画像
 
-最后更新：2026-09-04
+最后更新：2026-09-29
 
 ## 思维风格
 
@@ -40,6 +40,7 @@
 9. **Form 的 ontological commitment 经由解释不可消除性成立**：接受 Quine 的 indispensability argument——如果每一层因果解释都必须引用 form，那已经对 form 有 ontological commitment。Reductionism 重新定位 form 但从未消除它。
 10. **能耗最优与 hylomorphism 的暗合**：物理系统趋向最低能态，最低能态往往不是均匀的（晶体、超导、蛋白质折叠）→ form 可能是 matter 在能量最小化下的自然倾向，与 Aristotle 的 telos 概念暗合。
 11. **Compressionist nominalism**：Form = 对 matter 客观 regularity 的有损压缩。压缩方案由 inquiry 的目的（loss function）决定。不同压缩方案不收敛，收敛的是被压缩的原始信号。比标准 nominalism 更精确：不否认 regularity 的客观性，只否认 form 的唯一性和客观性。人类选择性关注有规律的部分（selection-biased），忽略不可压缩的部分。
+12. **Quality = 语言压缩的损失部分**：Pirsig 的 Quality 在语言/逻辑场域内是 performative contradiction（不可定义的东西不可讨论），但它指向的现象（心流、美食、冥想、艺术体验）是真实的。从 compressionist 框架看，Quality 是语言有损压缩时丢掉的信息——不是"更原始的本体"，而是压缩算法的盲区提醒。承认语言的边界，不等于接受 Pirsig 的形而上学。
 
 ## 已知薄弱点
 
